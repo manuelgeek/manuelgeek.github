@@ -1,0 +1,302 @@
+@charset "UTF-8";
+    /*!
+Theme Name: Pencil- Virtual Business Card CV Resume HTML Template 
+Author URI: https://themeforest.net/user/createuiux/portfolio
+Version : 1.0.1
+ */
+/* Large Devices, Wide Screens */
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width: 1600px) {
+  .pencile-area .widget-area .social-widgect {
+    left: 100px; }
+
+  .pencile-area .widget-area .print-widgect {
+    left: 100px; }
+
+  .pencile-area .widget-area .download-widgect {
+    right: 100px; }
+
+  .pencile-area-two .widget-area .social-widgect-two {
+    left: 100px; }
+
+  .pencile-area-two .widget-area .print-widgect {
+    left: 100px; }
+
+  .pencile-area-two .widget-area .download-widgect {
+    right: 100px; } }
+@media (min-width: 1201px) and (max-width: 1500px) {
+  .pencile-area .widget-area .social-widgect {
+    left: 70px; }
+
+  .pencile-area .widget-area .print-widgect {
+    left: 70px; }
+
+  .pencile-area .widget-area .download-widgect {
+    right: 70px; }
+
+  .pencile-area-two .widget-area .social-widgect-two {
+    left: 70px; }
+
+  .pencile-area-two .widget-area .print-widgect {
+    left: 70px; }
+
+  .pencile-area-two .widget-area .download-widgect {
+    right: 70px; } }
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .pencile-area .widget-area .social-widgect {
+    left: 30px; }
+
+  .pencile-area .widget-area .print-widgect {
+    left: 30px; }
+
+  .pencile-area .widget-area .download-widgect {
+    right: 30px; }
+
+  .pencile-area-two .widget-area .social-widgect-two {
+    left: 30px; }
+
+  .pencile-area-two .widget-area .print-widgect {
+    left: 30px; }
+
+  .pencile-area-two .widget-area .download-widgect {
+    right: 30px; } }
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1367px) {
+  .pencile-area .widget-area .social-widgect {
+    left: 30px; }
+
+  .pencile-area .widget-area .print-widgect {
+    left: 30px; }
+
+  .pencile-area .widget-area .download-widgect {
+    right: 30px; } }
+@media only screen and (min-width: 1201px) {
+ /*--------------------  
+no scroll body
+--------------------*/
+  html, body {
+    overflow: none !important; }
+
+  .left-sidebar {
+    position: inherit;
+    text-align: center;
+    margin: 10px 0; }
+    .left-sidebar .social-widgect ul li {
+      display: inline-block; }
+
+  .print-area {
+    position: inherit;
+    overflow: hidden; }
+
+  .right-sidebar {
+    position: inherit;
+    overflow: hidden;
+    padding-top: 20px; }
+
+  .bulet-list {
+    display: none !important;
+    position: inherit; } }
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  #pencil-info {
+    padding: 0 20px; }
+
+  .header-area .menu-area ul li a {
+    padding: 20px; }
+
+  .header-area .logo-area {
+    padding-top: 20px; }
+
+  .pencil-content-area .contact-area .contact-form form .checkbox-grup .single-check {
+    width: 49%; }
+
+  .pencile-area .widget-area .social-widgect {
+    position: inherit; }
+
+  .pencile-area .widget-area .social-widgect ul {
+    text-align: center; }
+
+  .pencile-area .widget-area .social-widgect ul li {
+    display: inline-block;
+    margin-bottom: 30px;
+    transform: translateY(50px); }
+
+  .pencile-area .widget-area .print-widgect {
+    position: inherit;
+    width: 50%;
+    float: left; }
+
+  .pencile-area .widget-area .download-widgect {
+    position: inherit; }
+
+  #pencil-info-two {
+    padding: 0 20px; }
+
+  .header-area .menu-area ul li a {
+    padding: 20px; }
+
+  .header-area .logo-area {
+    padding-top: 20px; }
+
+  .pencil-content-area-two .contact-area .contact-form form .checkbox-grup .single-check {
+    width: 49%; }
+
+  .pencile-area-two .widget-area .social-widgect-two {
+    position: inherit; }
+
+  .pencile-area-two .widget-area .social-widgect-two ul {
+    text-align: center; }
+
+  .pencile-area-two .widget-area .social-widgect-two ul li {
+    display: inline-block;
+    margin-bottom: 30px;
+    transform: translateY(50px); }
+
+  .pencile-area-two .widget-area .print-widgect {
+    position: inherit;
+    width: 50%;
+    float: left; }
+
+  .pencile-area-two .widget-area .download-widgect {
+    position: inherit; }
+
+  .pull-left {
+    float: inherit !important; }
+
+  .pull-right {
+    float: inherit !important; } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .header-area .logo-area {
+    text-align: center;
+    margin-bottom: 20px; }
+
+  .header-area .menu-area ul li a {
+    padding: 15px; }
+
+  .pencile-area {
+    margin-top: 60px; }
+
+  .pencile-area-two {
+    margin-top: 60px; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .header-area {
+    /* display: none !important;  */
+    text-align: center;
+    content: center;
+    /* padding: 2px; */
+
+}
+
+  .mobile-menu-area {
+    display: block; }
+
+  .pencile-area {
+    margin-top: 40px; }
+
+  .pencile-area-two {
+    margin-top: 20px; } }
+@media only screen and (max-width: 767px) {
+  .mean-container .mean-bar, .mean-container .mean-bar {
+    margin-left: 0; } }
+/* Extra Small Devices, Phones */
+/* Extra Small Devices, Phones */
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .pencil-content-area .contact-area .contact-form form .checkbox-grup .single-check {
+    width: 100%; }
+
+  .pencil-content-area-two .contact-area .contact-form form .checkbox-grup .single-check {
+    width: 100%; }
+
+  .pencil-content-area .contact-area .contact-left .about-info ul li {
+    font-size: 14px; }
+
+  .pencil-content-area-two .contact-area .contact-left .about-info ul li {
+    font-size: 14px; }
+
+  .pencil-content-area .contact-area .contact-left {
+    padding: 15px; }
+
+  .pencil-content-area-two .contact-area .contact-left {
+    padding: 15px; }
+
+  .pencil-content-area .profile-area .profile-info .name h1 {
+    font-size: 40px; }
+
+  .pencil-content-area .profile-area .profile-info .about-info ul li {
+    font-size: 13px; }
+
+  .pencil-content-area .profile-area .profile-info .about-info ul li i {
+    margin-right: 5px; }
+
+  .pencil-content-area .profile-area .profile-info .about-info ul li span {
+    margin-right: 0px; }
+
+  .pencil-content-area .contact-area .contact-left .about-info ul li {
+    font-size: 13px; }
+
+  .pencil-content-area .contact-area .contact-left .about-info ul li i {
+    margin-right: 5px; }
+
+  .pencil-content-area .contact-area .contact-left .about-info ul li span {
+    margin-right: 0; }
+
+  .pencil-content-area .contact-area .contact-left {
+    padding: 0; }
+
+  .pencil-content-area-two .profile-area .profile-info .name h1 {
+    font-size: 40px; }
+
+  .pencil-content-area-two .profile-area .profile-info .about-info ul li {
+    font-size: 13px; }
+
+  .pencil-content-area-two .profile-area .profile-info .about-info ul li i {
+    margin-right: 5px; }
+
+  .pencil-content-area-two .profile-area .profile-info .about-info ul li span {
+    margin-right: 0px; }
+
+  .pencil-content-area-two .contact-area .contact-left {
+    padding: 0; }
+
+  .pencil-content-area .contact-area .contact-form h3 {
+    font-size: 20px; }
+
+  .pencil-content-area-two .contact-area .contact-left .about-info ul li {
+    font-size: 13px; }
+
+  .pencil-content-area-two .contact-area .contact-left .about-info ul li i {
+    margin-right: 5px; }
+
+  .pencil-content-area-two .contact-area .contact-left .about-info ul li span {
+    margin-right: 0px; }
+
+  .pencil-content-area-two .contact-area .contact-form h3 {
+    font-size: 20px; } }
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .pencil-content-area .resume-area .single-resume .education-list .single-education .university-title h4 {
+    font-size: 16px; }
+
+  .pencil-content-area .resume-area .single-resume .employment-list .single-employment .university-title h4 {
+    font-size: 16px; }
+
+  .pencil-content-area .resume-area .single-resume .resume-title h3 {
+    font-size: 20px; }
+
+  .pencil-content-area .contact-area .contact-form {
+    padding: 0; }
+
+  .pencil-content-area-two .contact-area .contact-form {
+    padding: 0; }
+
+  .pencil-content-area-two .resume-area .single-resume .resume-title h3 {
+    font-size: 20px; }
+
+  .pencil-content-area-two .resume-area .single-resume .education-list .single-education .university-title h4 {
+    font-size: 16px; }
+
+  .pencil-content-area-two .resume-area .single-resume .employment-list .single-employment .university-title h4 {
+    font-size: 16px; } }
