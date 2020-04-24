@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 
-Theme Name: Pencil- Virtual Business Card CV Resume HTML Template 
+Theme Name: Pencil- Virtual Business Card CV Resume HTML Template
 Author URI: https://themeforest.net/user/createuiux/portfolio
 Version : 1.0.1
 
@@ -31,931 +31,1251 @@ table content
 9.pencile-area-two
 
 */
-/*--------------------  
+/*--------------------
 //
 --------------------*/
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  vertical-align: baseline;
-  width: 100%;
-  line-height: 24px;
-  color: #1f3f52;
-  font-weight: 400;
-  /* background: #FBE74A; */
- }
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    vertical-align: baseline;
+    width: 100%;
+    line-height: 24px;
+    color: #1f3f52;
+    font-weight: 400;
+    /* background: #FBE74A; */
+}
 
 .body-class {
-  background: #ffffff; }
+    background: #ffffff;
+}
 
 *:focus {
-  outline: 0 !important;
-  box-shadow: none !important;
-  border-color: #1f3f52 !important; }
+    outline: 0 !important;
+    box-shadow: none !important;
+    border-color: #1f3f52 !important;
+}
 
 .section {
-  padding: 100px 0; }
+    padding: 100px 0;
+}
 
 .p-0 {
-  padding: 0 !important; }
+    padding: 0 !important;
+}
 
 .pb-0 {
-  padding-bottom: 0 !important; }
+    padding-bottom: 0 !important;
+}
 
 .pt-0 {
-  padding-top: 0 !important; }
+    padding-top: 0 !important;
+}
 
 .m-0 {
-  margin: 0 !important; }
+    margin: 0 !important;
+}
 
 .mb-0 {
-  margin-bottom: 0px !important; }
+    margin-bottom: 0px !important;
+}
 
 .mt-0 {
-  margin-top: 0 !important; }
+    margin-top: 0 !important;
+}
 
 .mt-13 {
-  margin-top: 13px; }
+    margin-top: 13px;
+}
 
 .margin-15 {
-  margin-left: -15px; }
+    margin-left: -15px;
+}
 
 .sr-only {
-  display: none; }
+    display: none;
+}
 
 .acurate {
-  margin: 0;
-  padding: 0; }
+    margin: 0;
+    padding: 0;
+}
 
 .fix {
-  overflow: hidden; }
+    overflow: hidden;
+}
 
 .clear {
-  clear: both; }
+    clear: both;
+}
 
 ::-moz-selection {
-  background: #FBE74A;
-  text-shadow: none; }
+    background: #FBE74A;
+    text-shadow: none;
+}
 
 ::selection {
-  background: #FBE74A;
-  text-shadow: none; }
+    background: #FBE74A;
+    text-shadow: none;
+}
 
 .browserupgrade {
-  margin: 26px  0;
-  background: #FBE74A;
-  color: #333333;
-  padding: 26px 0; }
+    margin: 26px 0;
+    background: #FBE74A;
+    color: #333333;
+    padding: 26px 0;
+}
 
 /*mobile manue*/
 .mobile-menu-area {
-  display: none; }
+    display: none;
+}
 
 .mean-container .mean-nav {
-  position: absolute;
-  top: 100%;
- }
+    position: absolute;
+    top: 100%;
+}
 
 .border-radius {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  border-radius: 3px; }
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}
 
 /*-----------------------------------
 1.header-area
 --------------------------------------*/
 .header-area .logo-area {
-  padding-top: 35px; }
+    padding-top: 35px;
+}
+
 .header-area .menu-area ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  float: right; }
-  .header-area .menu-area ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+.header-area .menu-area ul li {
     margin: 0;
     display: inline-block;
-    position: relative; }
-    .header-area .menu-area ul li:hover ul {
-      opacity: 1;
-      visibility: visible;
-      top: 100%; }
-      .header-area .menu-area ul li:hover ul li {
-        display: block; }
-        .header-area .menu-area ul li:hover ul li a {
-          display: block;
-          background: #1f3f52;
-          color: #ffffff;
-          padding: 50px 0;
-         }
-          .header-area .menu-area ul li:hover ul li a:hover {
-            color: #FBE74A; }
-    .header-area .menu-area ul li ul {
-      position: absolute;
-      content: "";
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      z-index: 2;
-      opacity: 0;
-      visibility: hidden;
-      -webkit-transition: all 300ms;
-      -o-transition: all 300ms;
-      transition: all 300ms; }
-    .header-area .menu-area ul li.active a {
-      color: #121212;
-      background: #ffffff; }
-    .header-area .menu-area ul li a {
-      display: block;
-      text-align: center;
-      padding: 20px 25px!important;
-      font-size: 16px;
-      color: #121212;
-      font-weight: 700; }
-      .header-area .menu-area ul li a span {
-        display: block;
-        color: #121212;
-        margin-bottom: 6px; }
-        .header-area .menu-area ul li a span:before {
-          margin-left: 0px;
-          font-size: 25px; }
-      .header-area .menu-area ul li a:hover {
-        color: #121212;
-        background: #ffffff; }
+    position: relative;
+}
+
+.header-area .menu-area ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.header-area .menu-area ul li:hover ul li {
+    display: block;
+}
+
+.header-area .menu-area ul li:hover ul li a {
+    display: block;
+    background: #1f3f52;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+.header-area .menu-area ul li:hover ul li a:hover {
+    color: #FBE74A;
+}
+
+.header-area .menu-area ul li ul {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.header-area .menu-area ul li.active a {
+    color: #121212;
+    background: #ffffff;
+}
+
+.header-area .menu-area ul li a {
+    display: block;
+    text-align: center;
+    padding: 20px 25px !important;
+    font-size: 16px;
+    color: #121212;
+    font-weight: 700;
+}
+
+.header-area .menu-area ul li a span {
+    display: block;
+    color: #121212;
+    margin-bottom: 6px;
+}
+
+.header-area .menu-area ul li a span:before {
+    margin-left: 0px;
+    font-size: 25px;
+}
+
+.header-area .menu-area ul li a:hover {
+    color: #121212;
+    background: #ffffff;
+}
 
 /*--------------------------------------
 2.pencil-content-area
 --------------------------------------*/
 .pencile-area {
-  /* margin-top: 20px; */
-  background: #FBE74A;
-  position: relative;
-  /*-------------------------------------
-  2.7.widget-area
-  -------------------------------------*/ 
+    /* margin-top: 20px; */
+    background: #FBE74A;
+    position: relative;
+    /*-------------------------------------
+    2.7.widget-area
+    -------------------------------------*/
 }
-  .pencile-area .widget-area .social-widgect {
+
+.pencile-area .widget-area .social-widgect {
     position: absolute;
     top: 50%;
     left: 180px;
-    transform: translateY(-50%); }
-    .pencile-area .widget-area .social-widgect ul {
-      margin: 0;
-      padding: 0;
-      list-style: none; }
-      .pencile-area .widget-area .social-widgect ul li {
-        display: block;
-        margin-bottom: 12px; }
-        .pencile-area .widget-area .social-widgect ul li a {
-          display: block;
-          text-align: center;
-          width: 40px;
-          height: 40px;
-          line-height: 40px;
-          -webkit-border-radius: 50%;
-          -moz-border-radius: 50%;
-          -ms-border-radius: 50%;
-          border-radius: 50%;
-          background: #1f3f52;
-          color: #f9f9f9;
-          -webkit-transition: all 300ms;
-          -o-transition: all 300ms;
-          transition: all 300ms; }
-          .pencile-area .widget-area .social-widgect ul li a:hover {
-            background: #f9f9f9;
-            color: #1f3f52; }
-          .pencile-area .widget-area .social-widgect ul li a i:before {
-            margin-left: 0; }
-  .pencile-area .widget-area .print-widgect {
-    position: absolute;
-    left: 180px;
-    bottom: 0; }
-    .pencile-area .widget-area .print-widgect ul {
-      margin: 0;
-      padding: 0;
-      list-style: none; }
-      .pencile-area .widget-area .print-widgect ul li {
-        display: block;
-        text-align: Center; }
-        .pencile-area .widget-area .print-widgect ul li a {
-          display: block; }
-          .pencile-area .widget-area .print-widgect ul li a span {
-            display: block;
-            font-weight: 900;
-            font-size: 16px; }
-          .pencile-area .widget-area .print-widgect ul li a i {
-            display: block; }
-            .pencile-area .widget-area .print-widgect ul li a i:before {
-              margin-left: 0;
-              font-size: 30px; }
-  .pencile-area .widget-area .download-widgect {
-    position: absolute;
-    right: 180px;
-    bottom: 0; }
-    .pencile-area .widget-area .download-widgect ul {
-      margin: 0;
-      padding: 0;
-      list-style: none; }
-      .pencile-area .widget-area .download-widgect ul li {
-        display: block;
-        text-align: Center; }
-        .pencile-area .widget-area .download-widgect ul li a {
-          display: block; }
-          .pencile-area .widget-area .download-widgect ul li a span {
-            display: block;
-            font-weight: 900;
-            font-size: 16px; }
-          .pencile-area .widget-area .download-widgect ul li a i {
-            display: block; }
-            .pencile-area .widget-area .download-widgect ul li a i:before {
-              margin-left: 0;
-              font-size: 30px; }
+    transform: translateY(-50%);
+}
 
-#pencil-info {
-  -webkit-box-shadow: 0px 3px 88px 24px #ffd200;
-  -moz-box-shadow: 0px 3px 88px 24px #ffd200;
-  box-shadow: 0px 3px 88px 24px #ffd200;
-  padding: 0 45px; }
-
-.pencil-content-area {
-  margin-top: 20px;
-  padding-bottom: 45px;
-  /*................................
-  2.1.profile-area
-  .................................*/
- /*................................
-2.2.resume-area
-.................................*/
- /*................................
-2.3.service-area
-.................................*/
-  /*................................
-  2.4.portfolio-area
-  .................................*/
- /*................................
-2.5.testimonia-area
-.................................*/
-  /*................................
-  2.6..contact-area
-  .................................*/ }
-  .pencil-content-area .profile-area .profile-img {
-    padding-right: 40px; }
-  .pencil-content-area .profile-area .profile-info .name {
-    margin-bottom: 25px; }
-    .pencil-content-area .profile-area .profile-info .name h1 {
-      font-size: 50px;
-      color: #1f3f52;
-      line-height: 50px;
-      /* text-transform: uppercase; */
-      font-weight: 900;
-      margin-bottom: 12px; }
-    .pencil-content-area .profile-area .profile-info .name h4 {
-      font-size: 18px;
-      font-weight: 700;
-      letter-spacing: 3px;
-      /* text-transform: uppercase; */
-      margin-bottom: 25px; }
-  .pencil-content-area .profile-area .profile-info .about-info ul {
+.pencile-area .widget-area .social-widgect ul {
     margin: 0;
     padding: 0;
-    list-style: none; }
-    .pencil-content-area .profile-area .profile-info .about-info ul li {
-      display: block;
-      margin-bottom: 8px;
-      font-size: 16px;
-      font-weight: 400; }
-      .pencil-content-area .profile-area .profile-info .about-info ul li i {
-        margin-right: 10px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        border-radius: 50%;
-        background: #ffffff;
-        width: 32px;
-        height: 32px;
-        line-height: 32px;
-        text-align: center;
-        display: inline-block; }
-        .pencil-content-area .profile-area .profile-info .about-info ul li i:before {
-          margin-left: 0;
-          font-size: 20px; }
-      .pencil-content-area .profile-area .profile-info .about-info ul li span {
-        font-weight: 700;
-        margin-right: 5px; }
-  .pencil-content-area .profile-area .profile-info .objective-area {
+    list-style: none;
+}
+
+.pencile-area .widget-area .social-widgect ul li {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.pencile-area .widget-area .social-widgect ul li a {
+    display: block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #1f3f52;
+    color: #f9f9f9;
+    -webkit-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.pencile-area .widget-area .social-widgect ul li a:hover {
+    background: #f9f9f9;
+    color: #1f3f52;
+}
+
+.pencile-area .widget-area .social-widgect ul li a i:before {
+    margin-left: 0;
+}
+
+.pencile-area .widget-area .print-widgect {
+    position: absolute;
+    left: 180px;
+    bottom: 0;
+}
+
+.pencile-area .widget-area .print-widgect ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pencile-area .widget-area .print-widgect ul li {
+    display: block;
+    text-align: Center;
+}
+
+.pencile-area .widget-area .print-widgect ul li a {
+    display: block;
+}
+
+.pencile-area .widget-area .print-widgect ul li a span {
+    display: block;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.pencile-area .widget-area .print-widgect ul li a i {
+    display: block;
+}
+
+.pencile-area .widget-area .print-widgect ul li a i:before {
+    margin-left: 0;
+    font-size: 30px;
+}
+
+.pencile-area .widget-area .download-widgect {
+    position: absolute;
+    right: 180px;
+    bottom: 0;
+}
+
+.pencile-area .widget-area .download-widgect ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pencile-area .widget-area .download-widgect ul li {
+    display: block;
+    text-align: Center;
+}
+
+.pencile-area .widget-area .download-widgect ul li a {
+    display: block;
+}
+
+.pencile-area .widget-area .download-widgect ul li a span {
+    display: block;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.pencile-area .widget-area .download-widgect ul li a i {
+    display: block;
+}
+
+.pencile-area .widget-area .download-widgect ul li a i:before {
+    margin-left: 0;
+    font-size: 30px;
+}
+
+#pencil-info {
+    -webkit-box-shadow: 0px 3px 88px 24px #ffd200;
+    -moz-box-shadow: 0px 3px 88px 24px #ffd200;
+    box-shadow: 0px 3px 88px 24px #ffd200;
+    padding: 0 45px;
+}
+
+.pencil-content-area {
+    margin-top: 20px;
+    padding-bottom: 45px;
+    /*................................
+    2.1.profile-area
+    .................................*/
+    /*................................
+   2.2.resume-area
+   .................................*/
+    /*................................
+   2.3.service-area
+   .................................*/
+    /*................................
+    2.4.portfolio-area
+    .................................*/
+    /*................................
+   2.5.testimonia-area
+   .................................*/
+    /*................................
+    2.6..contact-area
+    .................................*/
+}
+
+.pencil-content-area .profile-area .profile-img {
+    padding-right: 40px;
+}
+
+.pencil-content-area .profile-area .profile-info .name {
+    margin-bottom: 25px;
+}
+
+.pencil-content-area .profile-area .profile-info .name h1 {
+    font-size: 50px;
+    color: #1f3f52;
+    line-height: 50px;
+    /* text-transform: uppercase; */
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.pencil-content-area .profile-area .profile-info .name h4 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    /* text-transform: uppercase; */
+    margin-bottom: 25px;
+}
+
+.pencil-content-area .profile-area .profile-info .about-info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pencil-content-area .profile-area .profile-info .about-info ul li {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pencil-content-area .profile-area .profile-info .about-info ul li i {
+    margin-right: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #ffffff;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+}
+
+.pencil-content-area .profile-area .profile-info .about-info ul li i:before {
+    margin-left: 0;
+    font-size: 20px;
+}
+
+.pencil-content-area .profile-area .profile-info .about-info ul li span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.pencil-content-area .profile-area .profile-info .objective-area {
     overflow: hidden;
-    margin-top: 7px; }
-    .pencil-content-area .profile-area .profile-info .objective-area h3 {
-      font-weight: 900;
-      font-size: 24px;
-      position: relative;
-      padding-left: 30px;
-      margin: 15px 0; }
-      .pencil-content-area .profile-area .profile-info .objective-area h3:after {
-        position: absolute;
-        content: '';
-        width: 20px;
-        height: 20px;
-        line-height: 20px;
-        background: #ffffff;
-        left: 0;
-        top: 2px; }
-    .pencil-content-area .profile-area .profile-info .objective-area p {
-      margin-bottom: 0;
-      font-size: 16px;
-      line-height: 24px; }
-  .pencil-content-area .resume-area .single-resume .resume-title h3 {
+    margin-top: 7px;
+}
+
+.pencil-content-area .profile-area .profile-info .objective-area h3 {
+    font-weight: 900;
+    font-size: 24px;
+    position: relative;
+    padding-left: 30px;
+    margin: 15px 0;
+}
+
+.pencil-content-area .profile-area .profile-info .objective-area h3:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: #ffffff;
+    left: 0;
+    top: 2px;
+}
+
+.pencil-content-area .profile-area .profile-info .objective-area p {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.pencil-content-area .resume-area .single-resume .resume-title h3 {
     font-size: 24px;
     color: #010101;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: capitalize;
     margin: 0;
-    margin-bottom: 12px; }
-    .pencil-content-area .resume-area .single-resume .resume-title h3 i {
-      margin-right: 10px;
-      display: inline-block;
-      width: 45px;
-      height: 45px;
-      line-height: 45px;
-      text-align: center;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      border-radius: 50%;
-      background: #f9f9f9; }
-      .pencil-content-area .resume-area .single-resume .resume-title h3 i:before {
-        margin-left: 0px;
-        font-size: 25px; }
-  .pencil-content-area .resume-area .single-resume .education-list {
-    position: relative; }
-    .pencil-content-area .resume-area .single-resume .education-list:after {
-      position: absolute;
-      content: "";
-      width: 2px;
-      height: 90%;
-      left: 22px;
-      top: 12px;
-      background: #f9f9f9; }
-    .pencil-content-area .resume-area .single-resume .education-list .single-education {
-      margin-bottom: 13px;
-      padding-left: 60px;
-      position: relative;
-      -webkit-transition: transition;
-      -o-transition: transition;
-      transition: transition; }
-      .pencil-content-area .resume-area .single-resume .education-list .single-education:hover:after {
-        background: #1f3f52;
-        z-index: 1; }
-      .pencil-content-area .resume-area .single-resume .education-list .single-education:after {
-        position: absolute;
-        content: "";
-        width: 15px;
-        height: 15px;
-        line-height: 15px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        border-radius: 50%;
-        left: 15px;
-        top: 12px;
-        background: #f9f9f9; }
-      .pencil-content-area .resume-area .single-resume .education-list .single-education .university-title h4 {
-        font-size: 18px;
-        text-transform: capitalize;
-        font-weight: 700;
-        margin-bottom: 0; }
-      .pencil-content-area .resume-area .single-resume .education-list .single-education .education-content h5 {
-        font-weight: 700;
-        text-transform: capitalize;
-        margin-bottom: 5px;
-		font-size:15px;}
-      .pencil-content-area .resume-area .single-resume .education-list .single-education .education-content p {
-        margin-bottom: 0; }
-  .pencil-content-area .resume-area .single-resume .employment-list {
-    position: relative; }
-    .pencil-content-area .resume-area .single-resume .employment-list:after {
-      position: absolute;
-      content: "";
-      width: 2px;
-      height: 90%;
-      left: 22px;
-      top: 12px;
-      background: #f9f9f9; }
-    .pencil-content-area .resume-area .single-resume .employment-list .single-employment {
-      margin-bottom: 13px;
-      padding-left: 60px;
-      position: relative;
-      -webkit-transition: transition;
-      -o-transition: transition;
-      transition: transition; }
-      .pencil-content-area .resume-area .single-resume .employment-list .single-employment:hover:after {
-        background: #1f3f52;
-        z-index: 1; }
-      .pencil-content-area .resume-area .single-resume .employment-list .single-employment:after {
-        position: absolute;
-        content: "";
-        width: 15px;
-        height: 15px;
-        line-height: 15px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        border-radius: 50%;
-        left: 15px;
-        top: 12px;
-        background: #f9f9f9; }
-      .pencil-content-area .resume-area .single-resume .employment-list .single-employment .university-title h4 {
-        font-size: 18px;
-        text-transform: capitalize;
-        font-weight: 700;
-        margin-bottom: 0; }
-      .pencil-content-area .resume-area .single-resume .employment-list .single-employment .employment-content h5 {
-        font-weight: 700;
-        text-transform: capitalize;
-        margin-bottom: 5px; }
-      .pencil-content-area .resume-area .single-resume .employment-list .single-employment .employment-content p {
-        margin-bottom: 0; }
-  .pencil-content-area .resume-area .single-resume .skills-list {
-    position: relative; }
-    .pencil-content-area .resume-area .single-resume .skills-list:after {
-      position: absolute;
-      content: "";
-      width: 2px;
-      height: 100%;
-      left: 22px;
-      top: 0;
-      background: #f9f9f9; }
-    .pencil-content-area .resume-area .single-resume .skills-list .single-skills {
-      margin-bottom: 15px;
-      padding-left: 60px;
-      position: relative;
-      -webkit-transition: transition;
-      -o-transition: transition;
-      transition: transition; }
-      .pencil-content-area .resume-area .single-resume .skills-list .single-skills:hover:after {
-        background: #1f3f52;
-        z-index: 1; }
-      .pencil-content-area .resume-area .single-resume .skills-list .single-skills:after {
-        position: absolute;
-        content: "";
-        width: 15px;
-        height: 15px;
-        line-height: 15px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        border-radius: 50%;
-        left: 15px;
-        top: 25px;
-        background: #f9f9f9; }
-      .pencil-content-area .resume-area .single-resume .skills-list .single-skills h5 {
-        font-size: 14px;
-        font-weight: 700;
-        margin-bottom: 5px; }
-  .pencil-content-area .resume-area .single-resume .certificates-list {
-    position: relative; }
-    .pencil-content-area .resume-area .single-resume .certificates-list:after {
-      position: absolute;
-      content: "";
-      width: 2px;
-      height: 90%;
-      left: 22px;
-      top: 12px;
-      background: #f9f9f9; }
-    .pencil-content-area .resume-area .single-resume .certificates-list .single-certificates {
-      margin-bottom: 13px;
-      padding-left: 60px;
-      position: relative;
-      -webkit-transition: transition;
-      -o-transition: transition;
-      transition: transition; }
-      .pencil-content-area .resume-area .single-resume .certificates-list .single-certificates:hover:after {
-        background: #1f3f52;
-        z-index: 1; }
-      .pencil-content-area .resume-area .single-resume .certificates-list .single-certificates:after {
-        position: absolute;
-        content: "";
-        width: 15px;
-        height: 15px;
-        line-height: 15px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        border-radius: 50%;
-        left: 15px;
-        top: 12px;
-        background: #f9f9f9; }
-      .pencil-content-area .resume-area .single-resume .certificates-list .single-certificates .university-title h4 {
-        font-size: 18px;
-        text-transform: capitalize;
-        font-weight: 700;
-        margin-bottom: 0; }
-      .pencil-content-area .resume-area .single-resume .certificates-list .single-certificates .certificates-content p {
-        margin-bottom: 0;
-        margin-top: 6px; }
-  .pencil-content-area .resume-area .single-resume .languages-list .single-language {
+    margin-bottom: 12px;
+}
+
+.pencil-content-area .resume-area .single-resume .resume-title h3 i {
+    margin-right: 10px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #f9f9f9;
+}
+
+.pencil-content-area .resume-area .single-resume .resume-title h3 i:before {
+    margin-left: 0px;
+    font-size: 25px;
+}
+
+.pencil-content-area .resume-area .single-resume .education-list {
+    position: relative;
+}
+
+.pencil-content-area .resume-area .single-resume .education-list:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 90%;
+    left: 22px;
+    top: 12px;
+    background: #f9f9f9;
+}
+
+.pencil-content-area .resume-area .single-resume .education-list .single-education {
+    margin-bottom: 13px;
+    padding-left: 60px;
+    position: relative;
+    -webkit-transition: transition;
+    -o-transition: transition;
+    transition: transition;
+}
+
+.pencil-content-area .resume-area .single-resume .education-list .single-education:hover:after {
+    background: #1f3f52;
+    z-index: 1;
+}
+
+.pencil-content-area .resume-area .single-resume .education-list .single-education:after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    left: 15px;
+    top: 12px;
+    background: #f9f9f9;
+}
+
+.pencil-content-area .resume-area .single-resume .education-list .single-education .university-title h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.pencil-content-area .resume-area .single-resume .education-list .single-education .education-content h5 {
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.pencil-content-area .resume-area .single-resume .education-list .single-education .education-content p {
+    margin-bottom: 0;
+}
+
+.pencil-content-area .resume-area .single-resume .employment-list {
+    position: relative;
+}
+
+.pencil-content-area .resume-area .single-resume .employment-list:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 90%;
+    left: 22px;
+    top: 12px;
+    background: #f9f9f9;
+}
+
+.pencil-content-area .resume-area .single-resume .employment-list .single-employment {
+    margin-bottom: 13px;
+    padding-left: 60px;
+    position: relative;
+    -webkit-transition: transition;
+    -o-transition: transition;
+    transition: transition;
+}
+
+.pencil-content-area .resume-area .single-resume .employment-list .single-employment:hover:after {
+    background: #1f3f52;
+    z-index: 1;
+}
+
+.pencil-content-area .resume-area .single-resume .employment-list .single-employment:after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    left: 15px;
+    top: 12px;
+    background: #f9f9f9;
+}
+
+.pencil-content-area .resume-area .single-resume .employment-list .single-employment .university-title h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.pencil-content-area .resume-area .single-resume .employment-list .single-employment .employment-content h5 {
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.pencil-content-area .resume-area .single-resume .employment-list .single-employment .employment-content p {
+    margin-bottom: 0;
+}
+
+.pencil-content-area .resume-area .single-resume .skills-list {
+    position: relative;
+}
+
+.pencil-content-area .resume-area .single-resume .skills-list:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    left: 22px;
+    top: 0;
+    background: #f9f9f9;
+}
+
+.pencil-content-area .resume-area .single-resume .skills-list .single-skills {
+    margin-bottom: 15px;
+    padding-left: 60px;
+    position: relative;
+    -webkit-transition: transition;
+    -o-transition: transition;
+    transition: transition;
+}
+
+.pencil-content-area .resume-area .single-resume .skills-list .single-skills:hover:after {
+    background: #1f3f52;
+    z-index: 1;
+}
+
+.pencil-content-area .resume-area .single-resume .skills-list .single-skills:after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    left: 15px;
+    top: 25px;
+    background: #f9f9f9;
+}
+
+.pencil-content-area .resume-area .single-resume .skills-list .single-skills h5 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.pencil-content-area .resume-area .single-resume .certificates-list {
+    position: relative;
+}
+
+.pencil-content-area .resume-area .single-resume .certificates-list:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 90%;
+    left: 22px;
+    top: 12px;
+    background: #f9f9f9;
+}
+
+.pencil-content-area .resume-area .single-resume .certificates-list .single-certificates {
+    margin-bottom: 13px;
+    padding-left: 60px;
+    position: relative;
+    -webkit-transition: transition;
+    -o-transition: transition;
+    transition: transition;
+}
+
+.pencil-content-area .resume-area .single-resume .certificates-list .single-certificates:hover:after {
+    background: #1f3f52;
+    z-index: 1;
+}
+
+.pencil-content-area .resume-area .single-resume .certificates-list .single-certificates:after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    left: 15px;
+    top: 12px;
+    background: #f9f9f9;
+}
+
+.pencil-content-area .resume-area .single-resume .certificates-list .single-certificates .university-title h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.pencil-content-area .resume-area .single-resume .certificates-list .single-certificates .certificates-content p {
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+.pencil-content-area .resume-area .single-resume .languages-list .single-language {
     margin-bottom: 30px;
     padding-left: 60px;
     position: relative;
     -webkit-transition: transition;
     -o-transition: transition;
-    transition: transition; }
-    .pencil-content-area .resume-area .single-resume .languages-list .single-language:hover:after {
-      background: #1f3f52;
-      z-index: 1; }
-    .pencil-content-area .resume-area .single-resume .languages-list .single-language:after {
-      position: absolute;
-      content: "";
-      width: 15px;
-      height: 15px;
-      line-height: 15px;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      border-radius: 50%;
-      left: 15px;
-      top: 12px;
-      background: #f9f9f9; }
-    .pencil-content-area .resume-area .single-resume .languages-list .single-language:before {
-      position: absolute;
-      content: "";
-      width: 2px;
-      height: 80%;
-      left: 22px;
-      top: 12px;
-      background: #f9f9f9; }
-    .pencil-content-area .resume-area .single-resume .languages-list .single-language .language-name h4 {
-      font-size: 18px;
-      font-weight: 700;
-      text-transform: capitalize;
-      margin-bottom: 15px; }
-    .pencil-content-area .resume-area .single-resume .languages-list .single-language .language-rating ul {
-      margin: 0;
-      padding: 0;
-      list-style: none; }
-      .pencil-content-area .resume-area .single-resume .languages-list .single-language .language-rating ul li {
-        display: inline-block;
-        cursor: pointer; }
-        .pencil-content-area .resume-area .single-resume .languages-list .single-language .language-rating ul li i:before {
-          margin-left: 0px; }
-  .pencil-content-area .service-area .single-service {
+    transition: transition;
+}
+
+.pencil-content-area .resume-area .single-resume .languages-list .single-language:hover:after {
+    background: #1f3f52;
+    z-index: 1;
+}
+
+.pencil-content-area .resume-area .single-resume .languages-list .single-language:after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    left: 15px;
+    top: 12px;
+    background: #f9f9f9;
+}
+
+.pencil-content-area .resume-area .single-resume .languages-list .single-language:before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 80%;
+    left: 22px;
+    top: 12px;
+    background: #f9f9f9;
+}
+
+.pencil-content-area .resume-area .single-resume .languages-list .single-language .language-name h4 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.pencil-content-area .resume-area .single-resume .languages-list .single-language .language-rating ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pencil-content-area .resume-area .single-resume .languages-list .single-language .language-rating ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.pencil-content-area .resume-area .single-resume .languages-list .single-language .language-rating ul li i:before {
+    margin-left: 0px;
+}
+
+.pencil-content-area .service-area .single-service {
     margin: 7px;
     padding: 76px 45px;
     -webkit-transition: all 300ms;
     -o-transition: all 300ms;
     transition: all 300ms;
-    background-color:#fff;}
-	.pencil-content-area .service-area .single-service:hover {
-	background: #FBE74A;
-	box-shadow: 2px 2px 60px #ffbf08;}
-    .pencil-content-area .service-area .single-service .service-icon {
-      margin-bottom: 10px; }
-      .pencil-content-area .service-area .single-service .service-icon i:before {
-        margin-left: 0;
-        font-size: 60px; }
-    .pencil-content-area .service-area .single-service .setvice-content h3 {
-      font-size: 20px;
-      font-weight: 700;
-      text-transform: capitalize;
-      margin-bottom: 15px; }
-    .pencil-content-area .service-area .single-service .setvice-content p {
-      margin-bottom: 0;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 22px; }
-  .pencil-content-area .portfolio-area {
-    width: 100%; }
-    .pencil-content-area .portfolio-area .filtering-button {
-      margin-bottom: 40px; }
-      .pencil-content-area .portfolio-area .filtering-button a {
-        padding: 10px 20px;
-        -webkit-transition: all 300ms;
-        -o-transition: all 300ms;
-        transition: all 300ms;
-        font-weight: 700;
-        text-transform: capitalize;
-        font-size: 16px;
-        cursor: pointer;
-        display: inline-block; }
-        .pencil-content-area .portfolio-area .filtering-button a:hover {
-          background: #f9f9f9;
-          color: #1f3f52; }
-        .pencil-content-area .portfolio-area .filtering-button a.active {
-          background: #f9f9f9;
-          color: #1f3f52; }
-    .pencil-content-area .portfolio-area .grid {
-      min-height: 510px;
-      margin-bottom: 30px; }
-      .pencil-content-area .portfolio-area .grid .single-portfolio {
-        margin: 7px;
-        background: #fffae7;
-        text-align: center;
-        position: relative; }
-        .pencil-content-area .portfolio-area .grid .single-portfolio:hover .work-hover {
-          opacity: 1; }
-          .pencil-content-area .portfolio-area .grid .single-portfolio:hover .work-hover .mask-work h4 {
-            margin-top: 0px;
-            opacity: 1; }
-          .pencil-content-area .portfolio-area .grid .single-portfolio:hover .work-hover .mask-work p {
-            margin-top: 0;
-            opacity: 1; }
-        .pencil-content-area .portfolio-area .grid .single-portfolio .work_thumb img {
-          width: 100%; }
-        .pencil-content-area .portfolio-area .grid .single-portfolio .work-hover {
-          position: absolute;
-          padding: 30px;
-          width: 100%;
-          height: 100%;
-          left: 0;
-          right: 0;
-          top: 0;
-          background: rgba(0, 0, 0, 0.8);
-          color: #ffffff;
-          transition: all .5s;
-          opacity: 0; }
-          .pencil-content-area .portfolio-area .grid .single-portfolio .work-hover .mask-work {
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            border: 1px dashed #ffffff;
-            margin: 0 30px;
-            padding: 30px 10px; }
-            .pencil-content-area .portfolio-area .grid .single-portfolio .work-hover .mask-work h4 {
-              color: #ffffff;
-              text-transform: capitalize;
-              margin-top: -10px;
-              transition: all .5s;
-              opacity: 0; }
-            .pencil-content-area .portfolio-area .grid .single-portfolio .work-hover .mask-work p {
-              margin-top: 50px;
-              transition: all .5s;
-              opacity: 0; }
-            .pencil-content-area .portfolio-area .grid .single-portfolio .work-hover .mask-work a {
-              display: inline-block;
-              padding: 8px 10px;
-              background: #ffffff;
-              -webkit-border-radius: 30px;
-              -moz-border-radius: 30px;
-              -ms-border-radius: 30px;
-              border-radius: 30px;
-              color: #1f3f52;
-              -webkit-transition: all 300ms;
-              -o-transition: all 300ms;
-              transition: all 300ms; }
-              .pencil-content-area .portfolio-area .grid .single-portfolio .work-hover .mask-work a:hover {
-                color: #ffffff;
-                background: #FBE74A; }
-  .pencil-content-area .testimonia-area .single-testimonial {
+    background-color: #fff;
+}
+
+.pencil-content-area .service-area .single-service:hover {
+    background: #FBE74A;
+    box-shadow: 2px 2px 60px #ffbf08;
+}
+
+.pencil-content-area .service-area .single-service .service-icon {
+    margin-bottom: 10px;
+}
+
+.pencil-content-area .service-area .single-service .service-icon i:before {
+    margin-left: 0;
+    font-size: 60px;
+}
+
+.pencil-content-area .service-area .single-service .setvice-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.pencil-content-area .service-area .single-service .setvice-content p {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.pencil-content-area .portfolio-area {
+    width: 100%;
+}
+
+.pencil-content-area .portfolio-area .filtering-button {
+    margin-bottom: 40px;
+}
+
+.pencil-content-area .portfolio-area .filtering-button a {
+    padding: 10px 20px;
+    -webkit-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.pencil-content-area .portfolio-area .filtering-button a:hover {
+    background: #f9f9f9;
+    color: #1f3f52;
+}
+
+.pencil-content-area .portfolio-area .filtering-button a.active {
+    background: #f9f9f9;
+    color: #1f3f52;
+}
+
+.pencil-content-area .portfolio-area .grid {
+    min-height: 510px;
+    margin-bottom: 30px;
+}
+
+.pencil-content-area .portfolio-area .grid .single-portfolio {
+    margin: 7px;
+    background: #fffae7;
+    text-align: center;
+    position: relative;
+}
+
+.pencil-content-area .portfolio-area .grid .single-portfolio:hover .work-hover {
+    opacity: 1;
+}
+
+.pencil-content-area .portfolio-area .grid .single-portfolio:hover .work-hover .mask-work h4 {
+    margin-top: 0px;
+    opacity: 1;
+}
+
+.pencil-content-area .portfolio-area .grid .single-portfolio:hover .work-hover .mask-work p {
+    margin-top: 0;
+    opacity: 1;
+}
+
+.pencil-content-area .portfolio-area .grid .single-portfolio .work_thumb img {
+    width: 100%;
+}
+
+.pencil-content-area .portfolio-area .grid .single-portfolio .work-hover {
+    position: absolute;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    transition: all .5s;
+    opacity: 0;
+}
+
+.pencil-content-area .portfolio-area .grid .single-portfolio .work-hover .mask-work {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px dashed #ffffff;
+    margin: 0 30px;
+    padding: 30px 10px;
+}
+
+.pencil-content-area .portfolio-area .grid .single-portfolio .work-hover .mask-work h4 {
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-top: -10px;
+    transition: all .5s;
+    opacity: 0;
+}
+
+.pencil-content-area .portfolio-area .grid .single-portfolio .work-hover .mask-work p {
+    margin-top: 50px;
+    transition: all .5s;
+    opacity: 0;
+}
+
+.pencil-content-area .portfolio-area .grid .single-portfolio .work-hover .mask-work a {
+    display: inline-block;
+    padding: 8px 10px;
+    background: #ffffff;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    color: #1f3f52;
+    -webkit-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.pencil-content-area .portfolio-area .grid .single-portfolio .work-hover .mask-work a:hover {
+    color: #ffffff;
+    background: #FBE74A;
+}
+
+.pencil-content-area .testimonia-area .single-testimonial {
     padding: 60px 25px 13px 25px;
     background: #fff;
     position: relative;
     text-align: center;
     margin-bottom: 40px;
-    margin-top: 45px; }
-	 .pencil-content-area .testimonia-area .single-testimonial:hover{
-		box-shadow: 2px 2px 60px #ffbf08;
-		background-color:#FBE74A;
-		transition: .5s;}
-	
-		
-    .pencil-content-area .testimonia-area .single-testimonial p {
-      font-size: 14px;
-      line-height: 22px;
-      font-weight: 500;
-      font-style: italic;
-      margin-bottom: 15px; }
-    .pencil-content-area .testimonia-area .single-testimonial .title h4 {
-      font-weight: 900; }
-      .pencil-content-area .testimonia-area .single-testimonial .title h4 span {
-        display: block;
-        font-weight: 400;
-        letter-spacing: 3px;
-        margin-top: 15px; }
-    .pencil-content-area .testimonia-area .single-testimonial .icon {
-      position: absolute;
-      content: '';
-      left: 0;
-      right: 0;
-      top: -45px;
-      text-align: center;
-      width: 80px;
-      height: 80px;
-      line-height: 80px;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      border-radius: 50%;
-      background: #1f3f52;
-      margin: 0 auto; }
-      .pencil-content-area .testimonia-area .single-testimonial .icon i {
-        color: #ffffff; }
-        .pencil-content-area .testimonia-area .single-testimonial .icon i:before {
-          margin-left: 0;
-          font-size: 30px; }
-  .pencil-content-area .contact-area .contact-left {
+    margin-top: 45px;
+}
+
+.pencil-content-area .testimonia-area .single-testimonial:hover {
+    box-shadow: 2px 2px 60px #ffbf08;
+    background-color: #FBE74A;
+    transition: .5s;
+}
+
+
+.pencil-content-area .testimonia-area .single-testimonial p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.pencil-content-area .testimonia-area .single-testimonial .title h4 {
+    font-weight: 900;
+}
+
+.pencil-content-area .testimonia-area .single-testimonial .title h4 span {
+    display: block;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+
+.pencil-content-area .testimonia-area .single-testimonial .icon {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: -45px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #1f3f52;
+    margin: 0 auto;
+}
+
+.pencil-content-area .testimonia-area .single-testimonial .icon i {
+    color: #ffffff;
+}
+
+.pencil-content-area .testimonia-area .single-testimonial .icon i:before {
+    margin-left: 0;
+    font-size: 30px;
+}
+
+.pencil-content-area .contact-area .contact-left {
     padding: 20px;
     background: #FBE74A;
     -webkit-box-shadow: 0px 3px 79px 13px #00cdFF;
     -moz-box-shadow: 0px 3px 79px 13px #00cdFF;
-    box-shadow: 0px 3px 79px 13px #00cdFF; }
-    .pencil-content-area .contact-area .contact-left .map-area {
-      margin-bottom: 30px; }
-      .pencil-content-area .contact-area .contact-left .map-area #map {
-        width: 100%;
-        height: 400px; }
-    .pencil-content-area .contact-area .contact-left .about-info {
-      margin-top: 30px; }
-      .pencil-content-area .contact-area .contact-left .about-info ul {
-        margin: 0;
-        padding: 0;
-        list-style: none; }
-        .pencil-content-area .contact-area .contact-left .about-info ul li {
-          display: block;
-          margin-bottom: 8px;
-          font-size: 16px;
-          font-weight: 400; }
-          .pencil-content-area .contact-area .contact-left .about-info ul li i {
-            margin-right: 10px;
-            -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            -ms-border-radius: 50%;
-            border-radius: 50%;
-            background: #ffffff;
-            width: 32px;
-            height: 32px;
-            line-height: 32px;
-            text-align: center;
-            display: inline-block; }
-            .pencil-content-area .contact-area .contact-left .about-info ul li i:before {
-              margin-left: 0;
-              font-size: 20px; }
-          .pencil-content-area .contact-area .contact-left .about-info ul li span {
-            font-weight: 700;
-            margin-right: 5px; }
-  .pencil-content-area .contact-area .contact-form {
+    box-shadow: 0px 3px 79px 13px #00cdFF;
+}
+
+.pencil-content-area .contact-area .contact-left .map-area {
+    margin-bottom: 30px;
+}
+
+.pencil-content-area .contact-area .contact-left .map-area #map {
+    width: 100%;
+    height: 400px;
+}
+
+.pencil-content-area .contact-area .contact-left .about-info {
+    margin-top: 30px;
+}
+
+.pencil-content-area .contact-area .contact-left .about-info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pencil-content-area .contact-area .contact-left .about-info ul li {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pencil-content-area .contact-area .contact-left .about-info ul li i {
+    margin-right: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #ffffff;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+}
+
+.pencil-content-area .contact-area .contact-left .about-info ul li i:before {
+    margin-left: 0;
+    font-size: 20px;
+}
+
+.pencil-content-area .contact-area .contact-left .about-info ul li span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.pencil-content-area .contact-area .contact-form {
     padding: 20px;
     background: #FBE74A;
     -webkit-box-shadow: 0px 3px 79px 13px #00cdFF;
     -moz-box-shadow: 0px 3px 79px 13px #00cdFF;
-    box-shadow: 0px 3px 79px 13px #00cdFF; }
-    .pencil-content-area .contact-area .contact-form h3 {
-      font-size: 24px;
-      font-weight: 700;
-      position: relative;
-      text-transform: capitalize;
-      padding-left: 30px;
-      margin-bottom: 25px; }
-      .pencil-content-area .contact-area .contact-form h3:after {
-        position: absolute;
-        content: '';
-        width: 20px;
-        height: 20px;
-        line-height: 20px;
-        background: #ffffff;
-        left: 0;
-        top: 2px; }
-    .pencil-content-area .contact-area .contact-form form {
-      font-weight: 400;
-      font-family: "Roboto", sans-serif; }
-      .pencil-content-area .contact-area .contact-form form .input-grup input {
-        width: 100%;
-        height: 40px;
-        margin-bottom: 15px;
-        padding: 5px 20px;
-        font-size: 16px;
-        color: #000;
-        text-transform: capitalize;
-        outline: 1px solid transparent;
-        border: 1px solid transparent; }
-        .pencil-content-area .contact-area .contact-form form .input-grup input:focus {
-          border: 1px solid #1f3f52; }
-      .pencil-content-area .contact-area .contact-form form .checkbox-grup {
-        margin: 20px 0; }
-        .pencil-content-area .contact-area .contact-form form .checkbox-grup .single-check {
-          display: inline-block;
-          width: 32%;
-          margin-bottom: 10px;
-          /*Checkboxes styles*/ }
-          .pencil-content-area .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] {
-            display: none; }
-          .pencil-content-area .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label {
-            display: block;
-            position: relative;
-            padding-left: 30px;
-            margin-bottom: 20px;
-            font: 14px/20px 'Open Sans', Arial, sans-serif;
-            color: #010101;
-            cursor: pointer; }
-          .pencil-content-area .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label:last-child {
-            margin-bottom: 0; }
-          .pencil-content-area .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label:before {
-            content: '';
-            display: block;
-            width: 20px;
-            height: 20px;
-            border: 2px solid #000;
-            position: absolute;
-            left: 0;
-            top: 0;
-            opacity: 1;
-            -webkit-transition: all .12s, border-color .08s;
-            transition: all .12s, border-color .08s; }
-          .pencil-content-area .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"]:checked + label:before {
-            width: 10px;
-            top: -5px;
-            left: 5px;
-            border-radius: 0;
-            opacity: 1;
-            border-top-color: transparent;
-            border-left-color: transparent;
-            -webkit-transform: rotate(45deg);
-            transform: rotate(45deg); }
-          .pencil-content-area .contact-area .contact-form form .checkbox-grup .single-check label {
-            font-size: 15px;
-            color: #010101;
-            font-weight: 400;
-            display: inline-block; }
-      .pencil-content-area .contact-area .contact-form form .messages-area textarea {
-        width: 100%;
-        height: 170px;
-        resize: none;
-        margin-bottom: 15px;
-        padding: 20px;
-        font-size: 16px;
-        color: #000;
-        text-transform: capitalize;
-        outline: 1px solid transparent;
-        border: 1px solid transparent; }
-        .pencil-content-area .contact-area .contact-form form .messages-area textarea:focus {
-          border: 1px solid #1f3f52; }
-      .pencil-content-area .contact-area .contact-form form .submit-btn .btn {
-        color: #f9f9f9;
-        background: #1f3f52;
-        padding: 8px 30px;
-        -webkit-border-radius: 30px;
-        -moz-border-radius: 30px;
-        -ms-border-radius: 30px;
-        border-radius: 30px;
-        font-size: 16px;
-        font-weight: 400;
-        text-transform: capitalize;
-        -webkit-transition: all 300ms;
-        -o-transition: all 300ms;
-        transition: all 300ms; }
-        .pencil-content-area .contact-area .contact-form form .submit-btn .btn:hover {
-          color: #1f3f52;
-          background: #f9f9f9; }
+    box-shadow: 0px 3px 79px 13px #00cdFF;
+}
+
+.pencil-content-area .contact-area .contact-form h3 {
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    text-transform: capitalize;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+
+.pencil-content-area .contact-area .contact-form h3:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: #ffffff;
+    left: 0;
+    top: 2px;
+}
+
+.pencil-content-area .contact-area .contact-form form {
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.pencil-content-area .contact-area .contact-form form .input-grup input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 5px 20px;
+    font-size: 16px;
+    color: #000;
+    text-transform: capitalize;
+    outline: 1px solid transparent;
+    border: 1px solid transparent;
+}
+
+.pencil-content-area .contact-area .contact-form form .input-grup input:focus {
+    border: 1px solid #1f3f52;
+}
+
+.pencil-content-area .contact-area .contact-form form .checkbox-grup {
+    margin: 20px 0;
+}
+
+.pencil-content-area .contact-area .contact-form form .checkbox-grup .single-check {
+    display: inline-block;
+    width: 32%;
+    margin-bottom: 10px;
+    /*Checkboxes styles*/
+}
+
+.pencil-content-area .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] {
+    display: none;
+}
+
+.pencil-content-area .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    font: 14px/20px 'Open Sans', Arial, sans-serif;
+    color: #010101;
+    cursor: pointer;
+}
+
+.pencil-content-area .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label:last-child {
+    margin-bottom: 0;
+}
+
+.pencil-content-area .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    -webkit-transition: all .12s, border-color .08s;
+    transition: all .12s, border-color .08s;
+}
+
+.pencil-content-area .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"]:checked + label:before {
+    width: 10px;
+    top: -5px;
+    left: 5px;
+    border-radius: 0;
+    opacity: 1;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.pencil-content-area .contact-area .contact-form form .checkbox-grup .single-check label {
+    font-size: 15px;
+    color: #010101;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.pencil-content-area .contact-area .contact-form form .messages-area textarea {
+    width: 100%;
+    height: 170px;
+    resize: none;
+    margin-bottom: 15px;
+    padding: 20px;
+    font-size: 16px;
+    color: #000;
+    text-transform: capitalize;
+    outline: 1px solid transparent;
+    border: 1px solid transparent;
+}
+
+.pencil-content-area .contact-area .contact-form form .messages-area textarea:focus {
+    border: 1px solid #1f3f52;
+}
+
+.pencil-content-area .contact-area .contact-form form .submit-btn .btn {
+    color: #f9f9f9;
+    background: #1f3f52;
+    padding: 8px 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    -webkit-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.pencil-content-area .contact-area .contact-form form .submit-btn .btn:hover {
+    color: #1f3f52;
+    background: #f9f9f9;
+}
 
 /*.....................................
 3.footer-area
 ......................................*/
 .footer-area {
-  padding: 20px 0px!important;
- }
-  .footer-area .copyright-area p {
+    padding: 20px 0px !important;
+}
+
+.footer-area .copyright-area p {
     margin-bottom: 0;
     font-size: 16px;
     color: #1f3f52;
-    font-weight: 500; }
+    font-weight: 500;
+}
 
 /*.....................................
 4.pagenation-area
 .....................................*/
 .pagenation-area .pagenation ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-  .pagenation-area .pagenation ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pagenation-area .pagenation ul li {
     display: inline-block;
-    margin-right: 5px; }
-    .pagenation-area .pagenation ul li.active a {
-      color: #f9f9f9;
-      background: #1f3f52; }
-    .pagenation-area .pagenation ul li a {
-      display: block;
-      width: 40px;
-      height: 40px;
-      line-height: 40px;
-      border: 1px solid #1f3f52;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      border-radius: 50%;
-      -webkit-transition: all 300ms;
-      -o-transition: all 300ms;
-      transition: all 300ms;
-      text-align: center; }
-      .pagenation-area .pagenation ul li a:hover {
-        color: #f9f9f9;
-        background: #1f3f52; }
+    margin-right: 5px;
+}
+
+.pagenation-area .pagenation ul li.active a {
+    color: #f9f9f9;
+    background: #1f3f52;
+}
+
+.pagenation-area .pagenation ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #1f3f52;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+    text-align: center;
+}
+
+.pagenation-area .pagenation ul li a:hover {
+    color: #f9f9f9;
+    background: #1f3f52;
+}
+
 .pagenation-area .number-page span {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 0; }
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
 
 /*...................................
 5.pencile-area-two
@@ -964,563 +1284,774 @@ body {
   1.header-area
   --------------------------------------*/
 .header-two .logo-area {
-  padding-top: 35px; }
+    padding-top: 35px;
+}
+
 .header-two .menu-area ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  float: right; }
-  .header-two .menu-area ul li {
     margin: 0;
-    display: inline-block; }
-    .header-two .menu-area ul li.active a {
-      color: #121212;
-      background: #FBE74A; }
-    .header-two .menu-area ul li a {
-      display: block;
-      text-align: center;
-      padding: 30px 35px;
-      font-size: 16px;
-      color: #121212;
-      font-weight: 700; }
-      .header-two .menu-area ul li a span {
-        display: block;
-        color: #121212;
-        margin-bottom: 6px; }
-        .header-two .menu-area ul li a span:before {
-          margin-left: 0px;
-          font-size: 25px; }
-      .header-two .menu-area ul li a:hover {
-        color: #121212;
-        background: #FBE74A; }
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+.header-two .menu-area ul li {
+    margin: 0;
+    display: inline-block;
+}
+
+.header-two .menu-area ul li.active a {
+    color: #121212;
+    background: #FBE74A;
+}
+
+.header-two .menu-area ul li a {
+    display: block;
+    text-align: center;
+    padding: 30px 35px;
+    font-size: 16px;
+    color: #121212;
+    font-weight: 700;
+}
+
+.header-two .menu-area ul li a span {
+    display: block;
+    color: #121212;
+    margin-bottom: 6px;
+}
+
+.header-two .menu-area ul li a span:before {
+    margin-left: 0px;
+    font-size: 25px;
+}
+
+.header-two .menu-area ul li a:hover {
+    color: #121212;
+    background: #FBE74A;
+}
 
 /*--------------------------------------
 6.pencil-content-area-two
 --------------------------------------*/
 .pencile-area-two {
-  margin-top: 10px;
-  /* width: 100%;; */
-  background: #ffffff;
-  position: relative;
-  /*-------------------------------------
-  6.7.widget-area
-  -------------------------------------*/ }
-  .pencile-area-two .widget-area .social-widgect-two {
+    margin-top: 10px;
+    /* width: 100%;; */
+    background: #ffffff;
+    position: relative;
+    /*-------------------------------------
+    6.7.widget-area
+    -------------------------------------*/
+}
+
+.pencile-area-two .widget-area .social-widgect-two {
     position: absolute;
     top: 50%;
     left: 180px;
-    transform: translateY(-50%); }
-    .pencile-area-two .widget-area .social-widgect-two ul {
-      margin: 0;
-      padding: 0;
-      list-style: none; }
-      .pencile-area-two .widget-area .social-widgect-two ul li {
-        display: block;
-        margin-bottom: 12px; }
-        .pencile-area-two .widget-area .social-widgect-two ul li a {
-          display: block;
-          text-align: center;
-          width: 40px;
-          height: 40px;
-          line-height: 40px;
-          -webkit-border-radius: 50%;
-          -moz-border-radius: 50%;
-          -ms-border-radius: 50%;
-          border-radius: 50%;
-          border: 1px solid #1f3f52;
-          color: #1f3f52;
-          -webkit-transition: all 300ms;
-          -o-transition: all 300ms;
-          transition: all 300ms; }
-          .pencile-area-two .widget-area .social-widgect-two ul li a:hover {
-            background: #1f3f52;
-            color: #ffffff; }
-          .pencile-area-two .widget-area .social-widgect-two ul li a i:before {
-            margin-left: 0; }
-  .pencile-area-two .widget-area .print-widgect {
-    position: absolute;
-    left: 180px;
-    bottom: 0; }
-    .pencile-area-two .widget-area .print-widgect ul {
-      margin: 0;
-      padding: 0;
-      list-style: none; }
-      .pencile-area-two .widget-area .print-widgect ul li {
-        display: block;
-        text-align: Center; }
-        .pencile-area-two .widget-area .print-widgect ul li a {
-          display: block; }
-          .pencile-area-two .widget-area .print-widgect ul li a span {
-            display: block;
-            font-weight: 900;
-            font-size: 16px; }
-          .pencile-area-two .widget-area .print-widgect ul li a i {
-            display: block; }
-            .pencile-area-two .widget-area .print-widgect ul li a i:before {
-              margin-left: 0;
-              font-size: 30px; }
-  .pencile-area-two .widget-area .download-widgect {
-    position: absolute;
-    right: 180px;
-    bottom: 0; }
-    .pencile-area-two .widget-area .download-widgect ul {
-      margin: 0;
-      padding: 0;
-      list-style: none; }
-      .pencile-area-two .widget-area .download-widgect ul li {
-        display: block;
-        text-align: Center; }
-        .pencile-area-two .widget-area .download-widgect ul li a {
-          display: block; }
-          .pencile-area-two .widget-area .download-widgect ul li a span {
-            display: block;
-            font-weight: 900;
-            font-size: 16px; }
-          .pencile-area-two .widget-area .download-widgect ul li a i {
-            display: block; }
-            .pencile-area-two .widget-area .download-widgect ul li a i:before {
-              margin-left: 0;
-              font-size: 30px; }
+    transform: translateY(-50%);
+}
 
-#pencil-info-two {
-  -webkit-box-shadow: 0px 3px 88px 24px #effaff;
-  -moz-box-shadow: 0px 3px 88px 24px #effaff;
-  box-shadow: 0px 3px 88px 24px #effaff;
-  padding: 0 45px; }
-
-.pencil-content-area-two {
-  margin-top: 40px;
-  padding-bottom: 45px;
-  /*................................
-  6.1.profile-area
-  .................................*/
- /*................................
-6.2.resume-area
-.................................*/
- /*................................
-6.3.service-area
-.................................*/
-  /*................................
-  6.4.portfolio-area
-  .................................*/
- /*................................
-6.5.testimonia-area
-.................................*/
-  /*................................
-  6.6..contact-area
-  .................................*/ }
-  .pencil-content-area-two .profile-area .profile-img {
-    padding-right: 40px; }
-  .pencil-content-area-two .profile-area .profile-info .name {
-    margin-bottom: 25px; }
-    .pencil-content-area-two .profile-area .profile-info .name h1 {
-      font-size: 50px;
-      color: #1f3f52;
-      line-height: 50px;
-      /* text-transform: uppercase; */
-      font-weight: 900;
-      margin-bottom: 12px; }
-    .pencil-content-area-two .profile-area .profile-info .name h4 {
-      font-size: 18px;
-      font-weight: 700;
-      letter-spacing: 3px;
-      /* text-transform: uppercase; */
-      margin-bottom: 25px; }
-  .pencil-content-area-two .profile-area .profile-info .about-info ul {
+.pencile-area-two .widget-area .social-widgect-two ul {
     margin: 0;
     padding: 0;
-    list-style: none; }
-    .pencil-content-area-two .profile-area .profile-info .about-info ul li {
-      display: block;
-      margin-bottom: 8px;
-      font-size: 16px;
-      font-weight: 400; }
-      .pencil-content-area-two .profile-area .profile-info .about-info ul li i {
-        margin-right: 10px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        border-radius: 50%;
-        background: #ffffff;
-        width: 32px;
-        height: 32px;
-        line-height: 32px;
-        text-align: center;
-        display: inline-block;
-        border: 1px solid #1f3f52; }
-        .pencil-content-area-two .profile-area .profile-info .about-info ul li i:before {
-          margin-left: 0;
-          font-size: 20px; }
-      .pencil-content-area-two .profile-area .profile-info .about-info ul li span {
-        font-weight: 700;
-        margin-right: 5px; }
-  .pencil-content-area-two .profile-area .profile-info .objective-area {
+    list-style: none;
+}
+
+.pencile-area-two .widget-area .social-widgect-two ul li {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.pencile-area-two .widget-area .social-widgect-two ul li a {
+    display: block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #1f3f52;
+    color: #1f3f52;
+    -webkit-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.pencile-area-two .widget-area .social-widgect-two ul li a:hover {
+    background: #1f3f52;
+    color: #ffffff;
+}
+
+.pencile-area-two .widget-area .social-widgect-two ul li a i:before {
+    margin-left: 0;
+}
+
+.pencile-area-two .widget-area .print-widgect {
+    position: absolute;
+    left: 180px;
+    bottom: 0;
+}
+
+.pencile-area-two .widget-area .print-widgect ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pencile-area-two .widget-area .print-widgect ul li {
+    display: block;
+    text-align: Center;
+}
+
+.pencile-area-two .widget-area .print-widgect ul li a {
+    display: block;
+}
+
+.pencile-area-two .widget-area .print-widgect ul li a span {
+    display: block;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.pencile-area-two .widget-area .print-widgect ul li a i {
+    display: block;
+}
+
+.pencile-area-two .widget-area .print-widgect ul li a i:before {
+    margin-left: 0;
+    font-size: 30px;
+}
+
+.pencile-area-two .widget-area .download-widgect {
+    position: absolute;
+    right: 180px;
+    bottom: 0;
+}
+
+.pencile-area-two .widget-area .download-widgect ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pencile-area-two .widget-area .download-widgect ul li {
+    display: block;
+    text-align: Center;
+}
+
+.pencile-area-two .widget-area .download-widgect ul li a {
+    display: block;
+}
+
+.pencile-area-two .widget-area .download-widgect ul li a span {
+    display: block;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.pencile-area-two .widget-area .download-widgect ul li a i {
+    display: block;
+}
+
+.pencile-area-two .widget-area .download-widgect ul li a i:before {
+    margin-left: 0;
+    font-size: 30px;
+}
+
+#pencil-info-two {
+    -webkit-box-shadow: 0px 3px 88px 24px #effaff;
+    -moz-box-shadow: 0px 3px 88px 24px #effaff;
+    box-shadow: 0px 3px 88px 24px #effaff;
+    padding: 0 45px;
+}
+
+.pencil-content-area-two {
+    margin-top: 40px;
+    padding-bottom: 45px;
+    /*................................
+    6.1.profile-area
+    .................................*/
+    /*................................
+   6.2.resume-area
+   .................................*/
+    /*................................
+   6.3.service-area
+   .................................*/
+    /*................................
+    6.4.portfolio-area
+    .................................*/
+    /*................................
+   6.5.testimonia-area
+   .................................*/
+    /*................................
+    6.6..contact-area
+    .................................*/
+}
+
+.pencil-content-area-two .profile-area .profile-img {
+    padding-right: 40px;
+}
+
+.pencil-content-area-two .profile-area .profile-info .name {
+    margin-bottom: 25px;
+}
+
+.pencil-content-area-two .profile-area .profile-info .name h1 {
+    font-size: 50px;
+    color: #1f3f52;
+    line-height: 50px;
+    /* text-transform: uppercase; */
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.pencil-content-area-two .profile-area .profile-info .name h4 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    /* text-transform: uppercase; */
+    margin-bottom: 25px;
+}
+
+.pencil-content-area-two .profile-area .profile-info .about-info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pencil-content-area-two .profile-area .profile-info .about-info ul li {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pencil-content-area-two .profile-area .profile-info .about-info ul li i {
+    margin-right: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #ffffff;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #1f3f52;
+}
+
+.pencil-content-area-two .profile-area .profile-info .about-info ul li i:before {
+    margin-left: 0;
+    font-size: 20px;
+}
+
+.pencil-content-area-two .profile-area .profile-info .about-info ul li span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.pencil-content-area-two .profile-area .profile-info .objective-area {
     overflow: hidden;
-    margin-top: 7px; }
-    .pencil-content-area-two .profile-area .profile-info .objective-area h3 {
-      font-weight: 900;
-      font-size: 24px;
-      position: relative;
-      padding-left: 30px;
-      margin: 15px 0; }
-      .pencil-content-area-two .profile-area .profile-info .objective-area h3:after {
-        position: absolute;
-        content: '';
-        width: 20px;
-        height: 20px;
-        line-height: 20px;
-        background: #1f3f52;
-        left: 0;
-        top: 2px; }
-    .pencil-content-area-two .profile-area .profile-info .objective-area p {
-      margin-bottom: 0;
-      font-size: 16px;
-      line-height: 24px; }
-  .pencil-content-area-two .resume-area .single-resume .resume-title h3 {
+    margin-top: 7px;
+}
+
+.pencil-content-area-two .profile-area .profile-info .objective-area h3 {
+    font-weight: 900;
+    font-size: 24px;
+    position: relative;
+    padding-left: 30px;
+    margin: 15px 0;
+}
+
+.pencil-content-area-two .profile-area .profile-info .objective-area h3:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: #1f3f52;
+    left: 0;
+    top: 2px;
+}
+
+.pencil-content-area-two .profile-area .profile-info .objective-area p {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.pencil-content-area-two .resume-area .single-resume .resume-title h3 {
     font-size: 24px;
     color: #010101;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: capitalize;
     margin: 0;
-    margin-bottom: 12px; }
-    .pencil-content-area-two .resume-area .single-resume .resume-title h3 i {
-      margin-right: 10px;
-      display: inline-block;
-      width: 45px;
-      height: 45px;
-      line-height: 45px;
-      text-align: center;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      border-radius: 50%;
-      background: #f9f9f9;
-      border: 1px solid #1f3f52; }
-      .pencil-content-area-two .resume-area .single-resume .resume-title h3 i:before {
-        margin-left: 0px;
-        font-size: 25px; }
-  .pencil-content-area-two .resume-area .single-resume .education-list {
-    position: relative; }
-    .pencil-content-area-two .resume-area .single-resume .education-list:after {
-      position: absolute;
-      content: "";
-      width: 2px;
-      height: 90%;
-      left: 22px;
-      top: 12px;
-      background: #1f3f52; }
-    .pencil-content-area-two .resume-area .single-resume .education-list .single-education {
-      margin-bottom: 13px;
-      padding-left: 60px;
-      position: relative;
-      -webkit-transition: transition;
-      -o-transition: transition;
-      transition: transition; }
-      .pencil-content-area-two .resume-area .single-resume .education-list .single-education:hover:after {
-        background: #FBE74A;
-        z-index: 1; }
-      .pencil-content-area-two .resume-area .single-resume .education-list .single-education:after {
-        position: absolute;
-        content: "";
-        width: 15px;
-        height: 15px;
-        line-height: 15px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        border-radius: 50%;
-        left: 15px;
-        top: 12px;
-        background: #1f3f52; }
-      .pencil-content-area-two .resume-area .single-resume .education-list .single-education .university-title h4 {
-        font-size: 18px;
-        text-transform: capitalize;
-        font-weight: 700;
-        margin-bottom: 0; }
-      .pencil-content-area-two .resume-area .single-resume .education-list .single-education .education-content h5 {
-        font-weight: 700;
-        text-transform: capitalize;
-        margin-bottom: 5px;
-		font-size:15px;	}
-      .pencil-content-area-two .resume-area .single-resume .education-list .single-education .education-content p {
-        margin-bottom: 0; }
-  .pencil-content-area-two .resume-area .single-resume .employment-list {
-    position: relative; }
-    .pencil-content-area-two .resume-area .single-resume .employment-list:after {
-      position: absolute;
-      content: "";
-      width: 2px;
-      height: 90%;
-      left: 22px;
-      top: 12px;
-      background: #1f3f52; }
-    .pencil-content-area-two .resume-area .single-resume .employment-list .single-employment {
-      margin-bottom: 13px;
-      padding-left: 60px;
-      position: relative;
-      -webkit-transition: transition;
-      -o-transition: transition;
-      transition: transition; }
-      .pencil-content-area-two .resume-area .single-resume .employment-list .single-employment:hover:after {
-        background: #FBE74A;
-        z-index: 1; }
-      .pencil-content-area-two .resume-area .single-resume .employment-list .single-employment:after {
-        position: absolute;
-        content: "";
-        width: 15px;
-        height: 15px;
-        line-height: 15px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        border-radius: 50%;
-        left: 15px;
-        top: 12px;
-        background: #1f3f52; }
-      .pencil-content-area-two .resume-area .single-resume .employment-list .single-employment .university-title h4 {
-        font-size: 18px;
-        text-transform: capitalize;
-        font-weight: 700;
-        margin-bottom: 0; }
-      .pencil-content-area-two .resume-area .single-resume .employment-list .single-employment .employment-content h5 {
-        font-weight: 700;
-        text-transform: capitalize;
-        margin-bottom: 5px; }
-      .pencil-content-area-two .resume-area .single-resume .employment-list .single-employment .employment-content p {
-        margin-bottom: 0; }
-  .pencil-content-area-two .resume-area .single-resume .skills-list {
-    position: relative; }
-    .pencil-content-area-two .resume-area .single-resume .skills-list:after {
-      position: absolute;
-      content: "";
-      width: 2px;
-      height: 100%;
-      left: 22px;
-      top: 0;
-      background: #1f3f52; }
-    .pencil-content-area-two .resume-area .single-resume .skills-list .single-skills {
-      margin-bottom: 15px;
-      padding-left: 60px;
-      position: relative;
-      -webkit-transition: transition;
-      -o-transition: transition;
-      transition: transition; }
-      .pencil-content-area-two .resume-area .single-resume .skills-list .single-skills:hover:after {
-        background: #FBE74A;
-        z-index: 1; }
-      .pencil-content-area-two .resume-area .single-resume .skills-list .single-skills:after {
-        position: absolute;
-        content: "";
-        width: 15px;
-        height: 15px;
-        line-height: 15px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        border-radius: 50%;
-        left: 15px;
-        top: 25px;
-        background: #1f3f52; }
-      .pencil-content-area-two .resume-area .single-resume .skills-list .single-skills h5 {
-        font-size: 14px;
-        font-weight: 700;
-        margin-bottom: 5px; }
-  .pencil-content-area-two .resume-area .single-resume .certificates-list {
-    position: relative; }
-    .pencil-content-area-two .resume-area .single-resume .certificates-list:after {
-      position: absolute;
-      content: "";
-      width: 2px;
-      height: 90%;
-      left: 22px;
-      top: 12px;
-      background: #1f3f52; }
-    .pencil-content-area-two .resume-area .single-resume .certificates-list .single-certificates {
-      margin-bottom: 13px;
-      padding-left: 60px;
-      position: relative;
-      -webkit-transition: transition;
-      -o-transition: transition;
-      transition: transition; }
-      .pencil-content-area-two .resume-area .single-resume .certificates-list .single-certificates:hover:after {
-        background: #FBE74A;
-        z-index: 1; }
-      .pencil-content-area-two .resume-area .single-resume .certificates-list .single-certificates:after {
-        position: absolute;
-        content: "";
-        width: 15px;
-        height: 15px;
-        line-height: 15px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        border-radius: 50%;
-        left: 15px;
-        top: 12px;
-        background: #1f3f52; }
-      .pencil-content-area-two .resume-area .single-resume .certificates-list .single-certificates .university-title h4 {
-        font-size: 18px;
-        text-transform: capitalize;
-        font-weight: 700;
-        margin-bottom: 0; }
-      .pencil-content-area-two .resume-area .single-resume .certificates-list .single-certificates .certificates-content p {
-        margin-bottom: 0;
-        margin-top: 6px; }
-  .pencil-content-area-two .resume-area .single-resume .languages-list .single-language {
+    margin-bottom: 12px;
+}
+
+.pencil-content-area-two .resume-area .single-resume .resume-title h3 i {
+    margin-right: 10px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #f9f9f9;
+    border: 1px solid #1f3f52;
+}
+
+.pencil-content-area-two .resume-area .single-resume .resume-title h3 i:before {
+    margin-left: 0px;
+    font-size: 25px;
+}
+
+.pencil-content-area-two .resume-area .single-resume .education-list {
+    position: relative;
+}
+
+.pencil-content-area-two .resume-area .single-resume .education-list:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 90%;
+    left: 22px;
+    top: 12px;
+    background: #1f3f52;
+}
+
+.pencil-content-area-two .resume-area .single-resume .education-list .single-education {
+    margin-bottom: 13px;
+    padding-left: 60px;
+    position: relative;
+    -webkit-transition: transition;
+    -o-transition: transition;
+    transition: transition;
+}
+
+.pencil-content-area-two .resume-area .single-resume .education-list .single-education:hover:after {
+    background: #FBE74A;
+    z-index: 1;
+}
+
+.pencil-content-area-two .resume-area .single-resume .education-list .single-education:after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    left: 15px;
+    top: 12px;
+    background: #1f3f52;
+}
+
+.pencil-content-area-two .resume-area .single-resume .education-list .single-education .university-title h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.pencil-content-area-two .resume-area .single-resume .education-list .single-education .education-content h5 {
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.pencil-content-area-two .resume-area .single-resume .education-list .single-education .education-content p {
+    margin-bottom: 0;
+}
+
+.pencil-content-area-two .resume-area .single-resume .employment-list {
+    position: relative;
+}
+
+.pencil-content-area-two .resume-area .single-resume .employment-list:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 90%;
+    left: 22px;
+    top: 12px;
+    background: #1f3f52;
+}
+
+.pencil-content-area-two .resume-area .single-resume .employment-list .single-employment {
+    margin-bottom: 13px;
+    padding-left: 60px;
+    position: relative;
+    -webkit-transition: transition;
+    -o-transition: transition;
+    transition: transition;
+}
+
+.pencil-content-area-two .resume-area .single-resume .employment-list .single-employment:hover:after {
+    background: #FBE74A;
+    z-index: 1;
+}
+
+.pencil-content-area-two .resume-area .single-resume .employment-list .single-employment:after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    left: 15px;
+    top: 12px;
+    background: #1f3f52;
+}
+
+.pencil-content-area-two .resume-area .single-resume .employment-list .single-employment .university-title h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.pencil-content-area-two .resume-area .single-resume .employment-list .single-employment .employment-content h5 {
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.pencil-content-area-two .resume-area .single-resume .employment-list .single-employment .employment-content p {
+    margin-bottom: 0;
+}
+
+.pencil-content-area-two .resume-area .single-resume .skills-list {
+    position: relative;
+}
+
+.pencil-content-area-two .resume-area .single-resume .skills-list:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    left: 22px;
+    top: 0;
+    background: #1f3f52;
+}
+
+.pencil-content-area-two .resume-area .single-resume .skills-list .single-skills {
+    margin-bottom: 15px;
+    padding-left: 60px;
+    position: relative;
+    -webkit-transition: transition;
+    -o-transition: transition;
+    transition: transition;
+}
+
+.pencil-content-area-two .resume-area .single-resume .skills-list .single-skills:hover:after {
+    background: #FBE74A;
+    z-index: 1;
+}
+
+.pencil-content-area-two .resume-area .single-resume .skills-list .single-skills:after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    left: 15px;
+    top: 25px;
+    background: #1f3f52;
+}
+
+.pencil-content-area-two .resume-area .single-resume .skills-list .single-skills h5 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.pencil-content-area-two .resume-area .single-resume .certificates-list {
+    position: relative;
+}
+
+.pencil-content-area-two .resume-area .single-resume .certificates-list:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 90%;
+    left: 22px;
+    top: 12px;
+    background: #1f3f52;
+}
+
+.pencil-content-area-two .resume-area .single-resume .certificates-list .single-certificates {
+    margin-bottom: 13px;
+    padding-left: 60px;
+    position: relative;
+    -webkit-transition: transition;
+    -o-transition: transition;
+    transition: transition;
+}
+
+.pencil-content-area-two .resume-area .single-resume .certificates-list .single-certificates:hover:after {
+    background: #FBE74A;
+    z-index: 1;
+}
+
+.pencil-content-area-two .resume-area .single-resume .certificates-list .single-certificates:after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    left: 15px;
+    top: 12px;
+    background: #1f3f52;
+}
+
+.pencil-content-area-two .resume-area .single-resume .certificates-list .single-certificates .university-title h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.pencil-content-area-two .resume-area .single-resume .certificates-list .single-certificates .certificates-content p {
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+.pencil-content-area-two .resume-area .single-resume .languages-list .single-language {
     margin-bottom: 30px;
     padding-left: 60px;
     position: relative;
     -webkit-transition: transition;
     -o-transition: transition;
-    transition: transition; }
-    .pencil-content-area-two .resume-area .single-resume .languages-list .single-language:hover:after {
-      background: #FBE74A;
-      z-index: 1; }
-    .pencil-content-area-two .resume-area .single-resume .languages-list .single-language:after {
-      position: absolute;
-      content: "";
-      width: 15px;
-      height: 15px;
-      line-height: 15px;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      border-radius: 50%;
-      left: 15px;
-      top: 12px;
-      background: #1f3f52; }
-    .pencil-content-area-two .resume-area .single-resume .languages-list .single-language:before {
-      position: absolute;
-      content: "";
-      width: 2px;
-      height: 80%;
-      left: 22px;
-      top: 12px;
-      background: #1f3f52; }
-    .pencil-content-area-two .resume-area .single-resume .languages-list .single-language .language-name h4 {
-      font-size: 18px;
-      font-weight: 700;
-      text-transform: capitalize;
-      margin-bottom: 15px; }
-    .pencil-content-area-two .resume-area .single-resume .languages-list .single-language .language-rating ul {
-      margin: 0;
-      padding: 0;
-      list-style: none; }
-      .pencil-content-area-two .resume-area .single-resume .languages-list .single-language .language-rating ul li {
-        display: inline-block;
-        cursor: pointer; }
-        .pencil-content-area-two .resume-area .single-resume .languages-list .single-language .language-rating ul li i:before {
-          margin-left: 0px; }
-  .pencil-content-area-two .service-area .single-service {
+    transition: transition;
+}
+
+.pencil-content-area-two .resume-area .single-resume .languages-list .single-language:hover:after {
+    background: #FBE74A;
+    z-index: 1;
+}
+
+.pencil-content-area-two .resume-area .single-resume .languages-list .single-language:after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    left: 15px;
+    top: 12px;
+    background: #1f3f52;
+}
+
+.pencil-content-area-two .resume-area .single-resume .languages-list .single-language:before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 80%;
+    left: 22px;
+    top: 12px;
+    background: #1f3f52;
+}
+
+.pencil-content-area-two .resume-area .single-resume .languages-list .single-language .language-name h4 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.pencil-content-area-two .resume-area .single-resume .languages-list .single-language .language-rating ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pencil-content-area-two .resume-area .single-resume .languages-list .single-language .language-rating ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.pencil-content-area-two .resume-area .single-resume .languages-list .single-language .language-rating ul li i:before {
+    margin-left: 0px;
+}
+
+.pencil-content-area-two .service-area .single-service {
     margin: 7px;
     padding: 76px 45px;
     box-shadow: 05px 5px 80px #e5f8ff;
     -webkit-transition: all 300ms;
     -o-transition: all 300ms;
-    transition: all 300ms; }
-    .pencil-content-area-two .service-area .single-service:hover {
-      box-shadow:none; }
-    .pencil-content-area-two .service-area .single-service .service-icon {
-      margin-bottom: 10px; }
-      .pencil-content-area-two .service-area .single-service .service-icon i:before {
-        margin-left: 0;
-        font-size: 60px; }
-    .pencil-content-area-two .service-area .single-service .setvice-content h3 {
-      font-size: 20px;
-      font-weight: 700;
-      text-transform: capitalize;
-      margin-bottom: 15px; }
-    .pencil-content-area-two .service-area .single-service .setvice-content p {
-      margin-bottom: 0;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 22px; }
-  .pencil-content-area-two .portfolio-area {
-    width: 100%; }
-    .pencil-content-area-two .portfolio-area .filtering-button {
-      margin-bottom: 40px; }
-      .pencil-content-area-two .portfolio-area .filtering-button a {
-        padding: 10px 20px;
-        -webkit-transition: all 300ms;
-        -o-transition: all 300ms;
-        transition: all 300ms;
-        font-weight: 700;
-        text-transform: capitalize;
-        font-size: 16px;
-        cursor: pointer;
-        display: inline-block; }
-        .pencil-content-area-two .portfolio-area .filtering-button a:hover {
-          background: #FBE74A;
-          color: #1f3f52; }
-        .pencil-content-area-two .portfolio-area .filtering-button a.active {
-          background: #FBE74A;
-          color: #1f3f52; }
-    .pencil-content-area-two .portfolio-area .grid {
-      min-height: 510px;
-      margin-bottom: 30px; }
-      .pencil-content-area-two .portfolio-area .grid .single-portfolio {
-        margin: 7px;
-        background: #fffae7;
-        text-align: center;
-        position: relative; }
-        .pencil-content-area-two .portfolio-area .grid .single-portfolio:hover .work-hover {
-          opacity: 1; }
-          .pencil-content-area-two .portfolio-area .grid .single-portfolio:hover .work-hover .mask-work h4 {
-            margin-top: 0px;
-            opacity: 1; }
-          .pencil-content-area-two .portfolio-area .grid .single-portfolio:hover .work-hover .mask-work p {
-            margin-top: 0;
-            opacity: 1; }
-        .pencil-content-area-two .portfolio-area .grid .single-portfolio .work_thumb img {
-          width: 100%; }
-        .pencil-content-area-two .portfolio-area .grid .single-portfolio .work-hover {
-          position: absolute;
-          padding: 30px;
-          width: 100%;
-          height: 100%;
-          left: 0;
-          right: 0;
-          top: 0;
-          background: rgba(0, 0, 0, 0.8);
-          color: #ffffff;
-          transition: all .5s;
-          opacity: 0; }
-          .pencil-content-area-two .portfolio-area .grid .single-portfolio .work-hover .mask-work {
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            border: 1px dashed #ffffff;
-            margin: 0 30px;
-            padding: 30px 10px; }
-            .pencil-content-area-two .portfolio-area .grid .single-portfolio .work-hover .mask-work h4 {
-              color: #ffffff;
-              text-transform: capitalize;
-              margin-top: -10px;
-              transition: all .5s;
-              opacity: 0; }
-            .pencil-content-area-two .portfolio-area .grid .single-portfolio .work-hover .mask-work p {
-              margin-top: 50px;
-              transition: all .5s;
-              opacity: 0; }
-            .pencil-content-area-two .portfolio-area .grid .single-portfolio .work-hover .mask-work a {
-              display: inline-block;
-              padding: 8px 26px;
-              background: #ffffff;
-              -webkit-border-radius: 30px;
-              -moz-border-radius: 30px;
-              -ms-border-radius: 30px;
-              border-radius: 30px;
-              color: #1f3f52;
-              -webkit-transition: all 300ms;
-              -o-transition: all 300ms;
-              transition: all 300ms; }
-              .pencil-content-area-two .portfolio-area .grid .single-portfolio .work-hover .mask-work a:hover {
-                color: #333;
-                background: #FBE74A; }
-  .pencil-content-area-two .testimonia-area .single-testimonial {
+    transition: all 300ms;
+}
+
+.pencil-content-area-two .service-area .single-service:hover {
+    box-shadow: none;
+}
+
+.pencil-content-area-two .service-area .single-service .service-icon {
+    margin-bottom: 10px;
+}
+
+.pencil-content-area-two .service-area .single-service .service-icon i:before {
+    margin-left: 0;
+    font-size: 60px;
+}
+
+.pencil-content-area-two .service-area .single-service .setvice-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.pencil-content-area-two .service-area .single-service .setvice-content p {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.pencil-content-area-two .portfolio-area {
+    width: 100%;
+}
+
+.pencil-content-area-two .portfolio-area .filtering-button {
+    margin-bottom: 40px;
+}
+
+.pencil-content-area-two .portfolio-area .filtering-button a {
+    padding: 10px 20px;
+    -webkit-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.pencil-content-area-two .portfolio-area .filtering-button a:hover {
+    background: #FBE74A;
+    color: #1f3f52;
+}
+
+.pencil-content-area-two .portfolio-area .filtering-button a.active {
+    background: #FBE74A;
+    color: #1f3f52;
+}
+
+.pencil-content-area-two .portfolio-area .grid {
+    min-height: 510px;
+    margin-bottom: 30px;
+}
+
+.pencil-content-area-two .portfolio-area .grid .single-portfolio {
+    margin: 7px;
+    background: #fffae7;
+    text-align: center;
+    position: relative;
+}
+
+.pencil-content-area-two .portfolio-area .grid .single-portfolio:hover .work-hover {
+    opacity: 1;
+}
+
+.pencil-content-area-two .portfolio-area .grid .single-portfolio:hover .work-hover .mask-work h4 {
+    margin-top: 0px;
+    opacity: 1;
+}
+
+.pencil-content-area-two .portfolio-area .grid .single-portfolio:hover .work-hover .mask-work p {
+    margin-top: 0;
+    opacity: 1;
+}
+
+.pencil-content-area-two .portfolio-area .grid .single-portfolio .work_thumb img {
+    width: 100%;
+}
+
+.pencil-content-area-two .portfolio-area .grid .single-portfolio .work-hover {
+    position: absolute;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    transition: all .5s;
+    opacity: 0;
+}
+
+.pencil-content-area-two .portfolio-area .grid .single-portfolio .work-hover .mask-work {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px dashed #ffffff;
+    margin: 0 30px;
+    padding: 30px 10px;
+}
+
+.pencil-content-area-two .portfolio-area .grid .single-portfolio .work-hover .mask-work h4 {
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-top: -10px;
+    transition: all .5s;
+    opacity: 0;
+}
+
+.pencil-content-area-two .portfolio-area .grid .single-portfolio .work-hover .mask-work p {
+    margin-top: 50px;
+    transition: all .5s;
+    opacity: 0;
+}
+
+.pencil-content-area-two .portfolio-area .grid .single-portfolio .work-hover .mask-work a {
+    display: inline-block;
+    padding: 8px 26px;
+    background: #ffffff;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    color: #1f3f52;
+    -webkit-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.pencil-content-area-two .portfolio-area .grid .single-portfolio .work-hover .mask-work a:hover {
+    color: #333;
+    background: #FBE74A;
+}
+
+.pencil-content-area-two .testimonia-area .single-testimonial {
     padding: 60px 25px 13px 25px;
     background: #ffffff;
     position: relative;
@@ -1529,243 +2060,325 @@ body {
     -moz-box-shadow: 0px 0px 44px 7px #effaff;
     box-shadow: 0px 0px 44px 7px #effaff;
     margin-bottom: 40px;
-    margin-top: 45px; }
-	.pencil-content-area-two .testimonia-area .single-testimonial:hover {
-	  box-shadow: none;
-       transition: .3s;}
-    .pencil-content-area-two .testimonia-area .single-testimonial p {
-      font-size: 14px;
-      line-height: 22px;
-      font-weight: 500;
-      font-style: italic;
-      margin-bottom: 15px; }
-    .pencil-content-area-two .testimonia-area .single-testimonial .title h4 {
-      font-weight: 900; }
-      .pencil-content-area-two .testimonia-area .single-testimonial .title h4 span {
-        display: block;
-        font-weight: 400;
-        letter-spacing: 3px;
-        margin-top: 15px; }
-    .pencil-content-area-two .testimonia-area .single-testimonial .icon {
-      position: absolute;
-      content: '';
-      left: 0;
-      right: 0;
-      top: -45px;
-      text-align: center;
-      width: 80px;
-      height: 80px;
-      line-height: 80px;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      border-radius: 50%;
-      background: #333;
-      margin: 0 auto; }
-      .pencil-content-area-two .testimonia-area .single-testimonial .icon i {
-        color: #ffffff; }
-        .pencil-content-area-two .testimonia-area .single-testimonial .icon i:before {
-          margin-left: 0;
-          font-size: 30px; }
-  .pencil-content-area-two .contact-area .contact-left {
+    margin-top: 45px;
+}
+
+.pencil-content-area-two .testimonia-area .single-testimonial:hover {
+    box-shadow: none;
+    transition: .3s;
+}
+
+.pencil-content-area-two .testimonia-area .single-testimonial p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.pencil-content-area-two .testimonia-area .single-testimonial .title h4 {
+    font-weight: 900;
+}
+
+.pencil-content-area-two .testimonia-area .single-testimonial .title h4 span {
+    display: block;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+
+.pencil-content-area-two .testimonia-area .single-testimonial .icon {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: -45px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #333;
+    margin: 0 auto;
+}
+
+.pencil-content-area-two .testimonia-area .single-testimonial .icon i {
+    color: #ffffff;
+}
+
+.pencil-content-area-two .testimonia-area .single-testimonial .icon i:before {
+    margin-left: 0;
+    font-size: 30px;
+}
+
+.pencil-content-area-two .contact-area .contact-left {
     padding: 20px;
     background: #ffffff;
     -webkit-box-shadow: 0px 3px 79px 13px #effaff;
     -moz-box-shadow: 0px 3px 79px 13px #effaff;
-    box-shadow: 0px 3px 79px 13px #effaff; }
-    .pencil-content-area-two .contact-area .contact-left .map-area {
-      margin-bottom: 30px; }
-      .pencil-content-area-two .contact-area .contact-left .map-area #map {
-        width: 100%;
-        height: 400px; }
-    .pencil-content-area-two .contact-area .contact-left .about-info {
-      margin-top: 30px; }
-      .pencil-content-area-two .contact-area .contact-left .about-info ul {
-        margin: 0;
-        padding: 0;
-        list-style: none; }
-        .pencil-content-area-two .contact-area .contact-left .about-info ul li {
-          display: block;
-          margin-bottom: 8px;
-          font-size: 16px;
-          font-weight: 400; }
-          .pencil-content-area-two .contact-area .contact-left .about-info ul li i {
-            margin-right: 10px;
-            -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            -ms-border-radius: 50%;
-            border-radius: 50%;
-            background: #ffffff;
-            border: 1px solid #1f3f52;
-            width: 32px;
-            height: 32px;
-            line-height: 32px;
-            text-align: center;
-            display: inline-block; }
-            .pencil-content-area-two .contact-area .contact-left .about-info ul li i:before {
-              margin-left: 0;
-              font-size: 20px; }
-          .pencil-content-area-two .contact-area .contact-left .about-info ul li span {
-            font-weight: 700;
-            margin-right: 5px; }
-  .pencil-content-area-two .contact-area .contact-form {
+    box-shadow: 0px 3px 79px 13px #effaff;
+}
+
+.pencil-content-area-two .contact-area .contact-left .map-area {
+    margin-bottom: 30px;
+}
+
+.pencil-content-area-two .contact-area .contact-left .map-area #map {
+    width: 100%;
+    height: 400px;
+}
+
+.pencil-content-area-two .contact-area .contact-left .about-info {
+    margin-top: 30px;
+}
+
+.pencil-content-area-two .contact-area .contact-left .about-info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pencil-content-area-two .contact-area .contact-left .about-info ul li {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pencil-content-area-two .contact-area .contact-left .about-info ul li i {
+    margin-right: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 1px solid #1f3f52;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+}
+
+.pencil-content-area-two .contact-area .contact-left .about-info ul li i:before {
+    margin-left: 0;
+    font-size: 20px;
+}
+
+.pencil-content-area-two .contact-area .contact-left .about-info ul li span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.pencil-content-area-two .contact-area .contact-form {
     padding: 20px;
     background: #ffffff;
     -webkit-box-shadow: 0px 3px 79px 13px #effaff;
     -moz-box-shadow: 0px 3px 79px 13px #effaff;
-    box-shadow: 0px 3px 79px 13px #effaff; }
-    .pencil-content-area-two .contact-area .contact-form h3 {
-      font-size: 24px;
-      font-weight: 700;
-      position: relative;
-      text-transform: capitalize;
-      padding-left: 30px;
-      margin-bottom: 25px; }
-      .pencil-content-area-two .contact-area .contact-form h3:after {
-        position: absolute;
-        content: '';
-        width: 20px;
-        height: 20px;
-        line-height: 20px;
-        background: #1f3f52;
-        left: 0;
-        top: 2px; }
-    .pencil-content-area-two .contact-area .contact-form form {
-      font-weight: 400;
-      font-family: "Roboto", sans-serif; }
-      .pencil-content-area-two .contact-area .contact-form form .input-grup input {
-        width: 100%;
-        height: 40px;
-        margin-bottom: 15px;
-        padding: 5px 20px;
-        font-size: 16px;
-        color: #000;
-        text-transform: capitalize;
-        outline: 1px solid transparent;
-        border: 1px solid transparent;
-        border: 1px solid #1f3f52; }
-      .pencil-content-area-two .contact-area .contact-form form .checkbox-grup {
-        margin: 20px 0; }
-        .pencil-content-area-two .contact-area .contact-form form .checkbox-grup .single-check {
-          display: inline-block;
-          width: 32%;
-          margin-bottom: 10px;
-          /*Checkboxes styles*/ }
-          .pencil-content-area-two .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] {
-            display: none; }
-          .pencil-content-area-two .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label {
-            display: block;
-            position: relative;
-            padding-left: 30px;
-            margin-bottom: 20px;
-            font: 14px/20px 'Open Sans', Arial, sans-serif;
-            color: #010101;
-            cursor: pointer; }
-          .pencil-content-area-two .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label:last-child {
-            margin-bottom: 0; }
-          .pencil-content-area-two .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label:before {
-            content: '';
-            display: block;
-            width: 20px;
-            height: 20px;
-            border: 2px solid #1f3f52;
-            position: absolute;
-            left: 0;
-            top: 0;
-            opacity: 1;
-            -webkit-transition: all .12s, border-color .08s;
-            transition: all .12s, border-color .08s; }
-          .pencil-content-area-two .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"]:checked + label:before {
-            width: 10px;
-            top: -5px;
-            left: 5px;
-            border-radius: 0;
-            opacity: 1;
-            border-top-color: transparent;
-            border-left-color: transparent;
-            -webkit-transform: rotate(45deg);
-            transform: rotate(45deg); }
-          .pencil-content-area-two .contact-area .contact-form form .checkbox-grup .single-check label {
-            font-size: 15px;
-            color: #010101;
-            font-weight: 400;
-            display: inline-block; }
-      .pencil-content-area-two .contact-area .contact-form form .messages-area textarea {
-        width: 100%;
-        height: 170px;
-        resize: none;
-        margin-bottom: 15px;
-        padding: 20px;
-        font-size: 16px;
-        color: #000;
-        text-transform: capitalize;
-        outline: 1px solid transparent;
-        border: 1px solid #1f3f52; }
-        .pencil-content-area-two .contact-area .contact-form form .messages-area textarea:focus {
-          border: 1px solid #1f3f52; }
-      .pencil-content-area-two .contact-area .contact-form form .submit-btn .btn {
-        color: #f9f9f9;
-        background: #1f3f52;
-        padding: 8px 30px;
-        -webkit-border-radius: 30px;
-        -moz-border-radius: 30px;
-        -ms-border-radius: 30px;
-        border-radius: 30px;
-        font-size: 16px;
-        font-weight: 400;
-        text-transform: capitalize;
-        -webkit-transition: all 300ms;
-        -o-transition: all 300ms;
-        transition: all 300ms; }
-        .pencil-content-area-two .contact-area .contact-form form .submit-btn .btn:hover {
-          color: #1f3f52;
-          background: #FBE74A; }
+    box-shadow: 0px 3px 79px 13px #effaff;
+}
+
+.pencil-content-area-two .contact-area .contact-form h3 {
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    text-transform: capitalize;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+
+.pencil-content-area-two .contact-area .contact-form h3:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: #1f3f52;
+    left: 0;
+    top: 2px;
+}
+
+.pencil-content-area-two .contact-area .contact-form form {
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.pencil-content-area-two .contact-area .contact-form form .input-grup input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 5px 20px;
+    font-size: 16px;
+    color: #000;
+    text-transform: capitalize;
+    outline: 1px solid transparent;
+    border: 1px solid transparent;
+    border: 1px solid #1f3f52;
+}
+
+.pencil-content-area-two .contact-area .contact-form form .checkbox-grup {
+    margin: 20px 0;
+}
+
+.pencil-content-area-two .contact-area .contact-form form .checkbox-grup .single-check {
+    display: inline-block;
+    width: 32%;
+    margin-bottom: 10px;
+    /*Checkboxes styles*/
+}
+
+.pencil-content-area-two .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] {
+    display: none;
+}
+
+.pencil-content-area-two .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    font: 14px/20px 'Open Sans', Arial, sans-serif;
+    color: #010101;
+    cursor: pointer;
+}
+
+.pencil-content-area-two .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label:last-child {
+    margin-bottom: 0;
+}
+
+.pencil-content-area-two .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #1f3f52;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    -webkit-transition: all .12s, border-color .08s;
+    transition: all .12s, border-color .08s;
+}
+
+.pencil-content-area-two .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"]:checked + label:before {
+    width: 10px;
+    top: -5px;
+    left: 5px;
+    border-radius: 0;
+    opacity: 1;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.pencil-content-area-two .contact-area .contact-form form .checkbox-grup .single-check label {
+    font-size: 15px;
+    color: #010101;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.pencil-content-area-two .contact-area .contact-form form .messages-area textarea {
+    width: 100%;
+    height: 170px;
+    resize: none;
+    margin-bottom: 15px;
+    padding: 20px;
+    font-size: 16px;
+    color: #000;
+    text-transform: capitalize;
+    outline: 1px solid transparent;
+    border: 1px solid #1f3f52;
+}
+
+.pencil-content-area-two .contact-area .contact-form form .messages-area textarea:focus {
+    border: 1px solid #1f3f52;
+}
+
+.pencil-content-area-two .contact-area .contact-form form .submit-btn .btn {
+    color: #f9f9f9;
+    background: #1f3f52;
+    padding: 8px 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    -webkit-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.pencil-content-area-two .contact-area .contact-form form .submit-btn .btn:hover {
+    color: #1f3f52;
+    background: #FBE74A;
+}
 
 /*.....................................
 7.footer-area
 ......................................*/
 .footer-area {
-  padding: 40px 0px; }
-  .footer-area .copyright-area p {
+    padding: 40px 0px;
+}
+
+.footer-area .copyright-area p {
     margin-bottom: 0;
     font-size: 16px;
     color: #1f3f52;
-    font-weight: 500; }
+    font-weight: 500;
+}
 
 /*.....................................
 8.pagenation-area
 .....................................*/
 .pagenation-area .pagenation ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-  .pagenation-area .pagenation ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pagenation-area .pagenation ul li {
     display: inline-block;
-    margin-right: 5px; }
-    .pagenation-area .pagenation ul li.active a {
-      color: #f9f9f9;
-      background: #1f3f52; }
-    .pagenation-area .pagenation ul li a {
-      display: block;
-      width: 40px;
-      height: 40px;
-      line-height: 40px;
-      border: 1px solid #1f3f52;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      border-radius: 50%;
-      -webkit-transition: all 300ms;
-      -o-transition: all 300ms;
-      transition: all 300ms;
-      text-align: center; }
-      .pagenation-area .pagenation ul li a:hover {
-        color: #f9f9f9;
-        background: #1f3f52; }
+    margin-right: 5px;
+}
+
+.pagenation-area .pagenation ul li.active a {
+    color: #f9f9f9;
+    background: #1f3f52;
+}
+
+.pagenation-area .pagenation ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #1f3f52;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+    text-align: center;
+}
+
+.pagenation-area .pagenation ul li a:hover {
+    color: #f9f9f9;
+    background: #1f3f52;
+}
+
 .pagenation-area .number-page span {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 0; }
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
 
 .mean-container .mean-nav ul li a span {
-  margin-right: 20px; }
+    margin-right: 20px;
+}
